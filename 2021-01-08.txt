@@ -1,0 +1,44 @@
+Today I learned (2021-01-08 ~ 2021-01-14)
+
+* React배우기
+- spotify
+- facebook이 투자하고 있음
+- The State of Javascript
+- webpack babel 등등
+- npx
+
+
+* Javascript Statistics
+- https://2019.stateofjs.com/overview/
+
+
+* Front-end book
+- https://tsh.io/state-of-frontend/#frameworks
+
+
+* vim short cut
+- https://wayhome25.github.io/etc/2017/03/27/vi/
+- https://gmlwjd9405.github.io/2019/05/14/vim-shortkey.html
+
+
+*Nice idea to study clone coding project of nomad coders.
+- You just concentrate on watching video and, you typing code yourself refer to github code.
+
+
+* I wanna some code review
+- Join some development club
+- Doing some project with others
+
+* Javascript : import usage?!
+
+* React
+- about JSX.
+- React have to start Capital letter.
+- ({}) Isn't it React grammar?
+- React required <div> tag?!
+- map : each one of elements
+- 'is required' 
+
+*Reddit
+- You need to check reddit news-letters.
+- and.. I wanna to join next.js /typescript.js / node.js /phython /wasm..(YES!)
