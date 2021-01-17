@@ -2,12 +2,67 @@ Today I Did
 - I will try to register ssh to github
 - I use two diffrent github account crossed.
 - I wanna to commit and push only drafts and post documents.(try!)
-[둘다 연결해보자. 그리고 할 수 있을듯?]
+[connect two account, maybe.. you can do it!]
 
-- I wanna to pull some cochle porject and just look around how can it worked. (to 7pm)
-- I wanna to make react app. (to 10pm)
-- Just workout (to 11pm)
 ---------------
 Today I learned
 
-https://nickjoit.tistory.com/94
+*Connecting github on ssh (multiple account!)
+
+- https://medium.com/@sunnkis/github-ssh-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%98%EC%97%AC-%EC%97%AC%EB%9F%AC-%EA%B3%84%EC%A0%95-%EA%B4%80%EB%A6%AC-%EB%B0%A9%EB%B2%95-7ec29bd0186d
+- https://monkey3199.github.io/develop/etc/2018/11/15/git_ssh_multi_user.html
+- https://jibak.tistory.com/9
+
+what is the ssh?
+- 생활코딩 : https://opentutorials.org/module/432/3742
+- ssh key : https://baked-corn.tistory.com/m/52
+
+
+How can I do?
+
+1. cheking your ssh key
+- $ ls -al ~/.ssh
+
+2. making first ssh key
+- $ ssh-keygen -t rsa
+
+3. making second ssh key (additional)
+- $ ssh-keygen -t rsa -C "work@mail.com" -f "id_rsa_work"
+
+4. checking generating ssh key correctly
+- $ ls -al ~/.ssh
+(usually .ssh file is positioned on aesoo)
+
+5. resitrating on github
+- seeting -> ssh key -> copypast
+- copy cli : $ pbcopy < ~/.ssh/id_rsa.pub (or additional file name)
+
+6. Using ssh-agent
+- (checking it's used on background): $ eval “$(ssh-agent -s)”
+
+7. adding ssh-agent
+- $ ssh-add ~/.ssh/id_rsa
+- $ ssh-add ~/.ssh/id_rsa_work (additional file name)
+
+8. checking registration
+- ssh-add -l
+
+9. making ssh config file.
+- making config file in .ssh directory. (if config file existed, you can skip this step. just add follow contents)
+- write down contents
+# personal account
+Host github.com
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_rsa
+   
+# working account
+Host github.com-work    
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_rsa_work
+
+10. trying to clone from github
+(Don't forget to github.com-work when you clone respository from working account, and you should clone on ssh)
+- $ git clone git@github.com:userName/userRepository.git
+- $ git clone git@github.com-work:workerName/workerRepository.git
