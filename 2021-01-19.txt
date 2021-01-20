@@ -1,0 +1,71 @@
+Today I learned (2021-1-18)
+- Analyzing cochlear.ai website code in github.
+- format macbook pro (fix error in machintosh HD)
+- setting pc (download application, npm, node... etc)
+
+-------------------
+
+Today I learned
+0. upgrade Mac OS
+- download yarn
+
+1. gatsby build / start 하는법
+*깔아야 하는것
+- node.js / yarn / typescript
+
+*build 는 배포라는데.. 
+- yarn build
+- https://www.gatsbyjs.com/docs/conceptual/overview-of-the-gatsby-build-process/
+- yarn start
+- https://alstn2468.github.io/Automation/2020-01-24-GatsbyGithubAction/
+
+2. 타입스크립트 관련 문서
+- https://www.typescriptlang.org/docs
+
+3. 로컬 서버 구동 하는 법.
+- npm run develop
+- https://www.gatsbyjs.com/docs/quick-start/
+
+4. 패키지 잠금 파일
+- https://www.daleseo.com/js-package-locks/
+
+-------------------
+
+Today I Did
+
+1. 정적 홈페이지 구조 파악
+ - pages : pages들이 있는것
+ - components : 그 안에 들어가는 components들이 들어가 있는것.
+ - layout : layout 들이 들어가 있는데
+(components에도 layout이 들어가 있음..왜죠? - 다른데서 주로 뭘 쓰나 봅시다..)
+(어떤거냐.. : )
+- constants: data 처리에 관련된 내용
+- theme : steyle..아마도 (palette: color/ typography: font)
+- content : news들.
+- web-demo : sense
+
+2. 이외 내용들
+theme은 material 인듯. (react router는 쓰러다가 쓰지 않게 된 것 같다. )
+
+-------------------
+
+*** 알고싶은것(추후 리서치)
+- gatsby
+https://www.gatsbyjs.com/docs/conceptual/overview-of-the-gatsby-build-process/
+- build
+- react router에 대해서 / (tsconfig.json..) ?!
+
+쉘파일 실행
+https://jerry901.github.io/2020/02/2020-02-07-01/
+
+yml
+https://www.inflearn.com/questions/16184
+app 에서 yarn build / yarn start
+font-end run이고, build는 무슨뜻일까??
+
+
+
+
+
+
+
