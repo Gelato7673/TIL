@@ -1,0 +1,97 @@
+To do..?
+
+1. about dash board
+- test file? data? how can run in localhost?
+- fix the problem or analyzing site.
+(turn on server -> fix some problem.
+or think about the idea how can I fix something in dashboard.)
+
+
+2. typing proto type. 
+- build (you need to know what is difference with build and start)
+- build with type script and gatsby and react
+
+
+3. open sublime / and setting theme.
+- open sublime in termianl : excutation sublime -> sublime
+https://medium.com/@adie0423/%ED%84%B0%EB%AF%B8%EB%84%90%EC%97%90%EC%84%9C-sublimetext3-%EC%97%B4%EA%B8%B0-1145f3338b9c
+
+
+--------
+I wanna to know..
+- yaml (https://www.inflearn.com/questions/16184)
+- 파일 옮기는 리눅스 명렁어
+- root directory is aesoocho (maybe.) : https://haloaround.tistory.com/7
+- Mac Terminal Cli : https://haloaround.tistory.com/7
+
+--------
+
+Agenda 
+
+1. about dashboard
+- dashboard : database error [look at the site as I can]
+
+2. about static page
+- Searching the case seperating components and cstyle / how can they deal this problem.
+- Fixing homepage (if I can I do..)
+- I wanna to make a small website (maybe.. If I can.. to study react)
+- * Image light
+- * Code refactoring (to OKR)
+- * Google page speed Insight
+- * Data sync in the board.
+
+3. about git or working style
+- with brunch?!(you need to search the working style in github)
+
+4. Arrange
+- Suggestion, how can you change the react style.
+- The reason that I wanna to use react rather than vue.js
+- brunch working flow (beta version.. or?)
+- Dashboard Error (checking the point)
+
+--------
+Today's meeting (UI/UX Design)
+
+- About OKR (book) 
+- Documentation and Dashboard
+-- some contents need to move Dashboard (add github / if user is not sign in condition, some introduction page have to apear.)
+-- Development Document Idea. 
+- BigHit (Music Visualizaion  / when fan singing in front of wall, It will working following sing)
+
+* Music Swaper
+- main project
+- prototype is coming until March
+- Intereactive Actively (chaging music)
+- Manager: Park jongsoo (algorithm and system)
+- Tomas, Subin
+- Measure about 3
+
+--------
+To do list
+- Arrange the Agenda.
+
+To do it.
+- First you just make some homepage by react, typescript, gatsby.
+- and.. please revise this kinds of this. (or... they don't want this.. just.. not)
+
+And then
+- Fix some need to fix the contents
+
+And then
+- Maybe, start the Music Swaper
+
+And then
+- Our Documentation Idea (Maybe not or.. maybe I need)
+
+
+
+
+
+
+
+
+
+
+
+
+

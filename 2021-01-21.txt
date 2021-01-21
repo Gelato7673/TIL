@@ -1,0 +1,86 @@
+Agenda in meeting
+
+*** vue.js  / react.
+As far as I concorned, React is better than vue.js
+In case of team project, I think React is better. 
+because It's more free to modify UX and flow later, and.. maybe It's easier to find reference about changig music because React community is bigger than Vue. 
+so.. I think It's better. 
+
+[details]
+1. About dashboard project. It's not working well in localhost, because of data-connection.
+so, If you have a some tips to modify or fix front-end part in localhost, please share some tips.
+
+2. Yesterday, I gave some maintenance requirement from UI/UX team about cochlear website and some.. modify design so, I will go ahead with music-swrapper project together. It just sharing my working.
+
+--------
+
+Searching about..(not to day)
+
+1. Docker file
+2. CSS in JS.. is better than sass or some css?
+3. Maybe.. I need to searching some reference when I make music changing function
+
+---------
+Today I learned
+
+Just thinking..about vue.js vs React
+- Vue.js to  (https://velog.io/@vraimentres/react-vs-vue-2)
+
+[Vue]
+장
+- vue is more activity. (chaging state.) and easy to make and build.
+- 일단 데이터를 빠르게 바꿀 수 있다는 점. 
+- 데이터의 저달 후 변경 등이 편하다는 점 / 이벤트가 편리하고 이쁘게 들어간다는 지점.
+- template 이용 / 빠른 빌드업
+- 점진적인 향상
+
+단
+- 뷰가 야간은 느리지만.. 뭐.. 
+- 레퍼런스가 적을 수도
+- 자유도의 문제 (팀으로 일할때의 문제점)
+
+
+google page speed Insight에서 사진 용량이 너무 커서 줄여달래. 어떻게 하는게 좋을까?
+구글에서 제안하는 방법은 다음과 같아. 
+
+
+[고해상도의 이미지를 그대로 가져오는법]
+- 캔버스나 그런걸 ..?
+- svg는 색상이 없어진다는 사실은??
+- 사진사이즈를 그냥.. 아니면 화질을 그냥 내가 리사이징해서 넣으면 좋을 것 같다. 
+
+
+[똑같은 걸 만들고 그 차이점을 썼다.]
+- https://erwinousy.medium.com/%EB%82%9C-react%EC%99%80-vue%EC%97%90%EC%84%9C-%EC%99%84%EC%A0%84%ED%9E%88-%EA%B0%99%EC%9D%80-%EC%95%B1%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%97%88%EB%8B%A4-%EC%9D%B4%EA%B2%83%EC%9D%80-%EA%B7%B8-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%B4%EB%8B%A4-5cffcbfe287f
+
+[vue.js c++과 비교]
+- https://myeongjae.kim/blog/2019/02/04/react-in-a-sight-of-whom-used-to-vue
+
+[구조화 하는 올바른 방법. 왜 그런것이 없는지]
+- https://erwinousy.medium.com/react-%EC%95%B1%EC%9D%84-%EA%B5%AC%EC%A1%B0%ED%99%94%ED%95%98%EB%8A%94-100-%EC%98%AC%EB%B0%94%EB%A5%B8-%EB%B0%A9%EB%B2%95-%EB%98%90%EB%8A%94-%EC%99%9C-%EA%B7%B8%EB%9F%B0-%EA%B2%83%EC%9D%B4-%EC%97%86%EB%8A%94%EC%A7%80-1%ED%8E%B8-e89aae4d07e5
+
+[kib]
+- 단위에 대해서
+https://ux.stackexchange.com/questions/13815/files-size-units-kib-vs-kb-vs-kb
+
+
+
+------
+이미지 다운 사이징에 관한 글들
+- https://web.dev/uses-responsive-images/?utm_source=lighthouse&utm_medium=unknown
+- https://www.npmjs.com/package/responsive-images-generator
+- https://web.dev/serve-responsive-images/
+- https://web.dev/image-cdns/
+
+** properly size images
+https://web.dev/uses-responsive-images/?utm_source=lighthouse&utm_medium=unknown
+
+** https://web.dev/serve-responsive-images/
+https://web.dev/serve-responsive-images/
+
+-----
+Firefox등 개발자 도구
+command + opt + i
+
+
+
