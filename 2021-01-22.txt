@@ -1,0 +1,14 @@
+1. macbook pro track pad
+https://donologue.tistory.com/191
+https://sjy-itsme.tistory.com/188
+
+2. 새로운 git / react 환경에 적응하기
+
+-git
+https://parksb.github.io/article/28.html
+
+-가져오기
+https://backlog.com/git-tutorial/kr/stepup/stepup3_2.html
+
+
+
