@@ -1,0 +1,25 @@
+Today I did
+
+"Finish"
+
+1. changing images (photo - uploading photo and bio / 3person) [3명꺼는 이미 올렸음]
+- 내용 수정만 하면 된다. 
+
+2. let's see the connection (I think... it'can be solved if I use session storage...isn't it?)
+
+3. changing images (big size image changing) - asking something.. first. 
+
+4. 회의 내용 정리 (work에 정리해 두었음)
+
+
+-------------
+Today I learned
+
+1. svg 적용 하는 법
+
+
+2. 
+
+
+---
+arrage name??
