@@ -1,0 +1,29 @@
+Today I learned / Did
+
+1. How can I change the about-us page?!
+I wanna to chagne 'about-us' to open in the new tabs.
+
+try.
+1. Saving the data in session or local storgage.
+
+if you want use this way, you need to set function, and event point..
+but event point is a lot. I can't point one event.
+
+2. so, I think I deliver the data as url. (with parameter like.. ?)
+It's working at local! but, It's fail to server.
+I notice this site (with gatsby) used router. so, It's not easy to open new tabs in the framework.
+
+so, I asked ben about opinion about this things.
+
+He also think... It's need to change structure like a news room.
+
+--------
+Why I fumbled for two days..?
+
+1. I don't know js6, react. 
+2. I didn't understand about gatsby... 
+
+... anyway...
+
+** I think if I try to find similar case in this homepage, maybe I can solve this problem easier. 
+

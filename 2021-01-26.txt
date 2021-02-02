@@ -17,9 +17,4 @@ Today I learned
 
 1. svg 적용 하는 법
 
-
-2. 
-
-
----
-arrage name??
+...?
