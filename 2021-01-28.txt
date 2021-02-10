@@ -37,7 +37,7 @@ var obj = {
 속성에 연속적으로 접근할 수 있습니다:
 obj.details.color; // orange
 
-
+------------------------------------------------
 4. 아래 예제는 객체 프로토타입(Person)과 프로토타입의 인스턴스(you)를 생성합니다.
 function Person(name, age) {
   this.name = name;
@@ -113,7 +113,7 @@ console.log(sum.apply(null, numbers));
 3.5
 
 
-**재귀적으로 함수 사용하기.. (근데 잘 안됨)
+** 재귀적으로 함수 사용하기.. (근데 잘 안됨)
 JavaScript는 재귀적으로 함수를 부를 수 있습니다. 이는 브라우저 DOM 등에서 볼수 있는 트리 구조를 다루는데 유용합니다.
 
 function countChars(elm) {
