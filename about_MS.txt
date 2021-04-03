@@ -1,0 +1,26 @@
+1. 메인디자인 이대로 갈 것인지?
+
+2. 유저는 몇 단계로 나눌것인지. 
+3. 유저 데이터 테이블은 데쉬보드랑 똑같이 갈 것인지?
+5. 로그인 폼 디자인. 한 페이지로 하는 것이 더 좋고 생각하는데, 변경요청
+4. refresh-token인증 방식
+5. size and format
+6. creating the name of project. (현재 이름이 있는지 모르겠다.)
+
+
+
+-------
+
+git add -- . ':!backend/*'
+
+-------
+
+기억하고 요청할 부분
+- material-icon (upload 부분)
+- thumbnail부분. 
+- delete는 나중에 구현되는 건지?
+
+-------
+
+
+

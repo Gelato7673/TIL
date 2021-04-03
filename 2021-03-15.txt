@@ -1,0 +1,53 @@
+Today I learned
+
+1. git 관련 이슈들
+역시 믿을껀 모질라 뿐이다.
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+
+Git version 관련된 내용
+https://stackoverflow.com/questions/50316434/add-all-files-using-git-add-except-one-directory/50316635
+
+git에서 특정 파일 제외 : (ex. backend 폴더 제외 : git add -- . ':!backend/*')
+http://rapapa.net/?p=85
+
+add한 파일 취소
+https://wotres.tistory.com/entry/git-add-%ED%95%9C-%ED%8C%8C%EC%9D%BC-%EC%B7%A8%EC%86%8C%ED%95%98%EB%8A%94%EB%B2%95
+
+비우기
+https://github.com/HomoEfficio/dev-tips/blob/master/Git%20.gitignore%EA%B0%80%20%EC%95%88%20%EB%A8%B9%EC%9D%84%20%EB%95%8C.md
+
+2. log-in module : refresh token / access token
+
+https://velog.io/@daybreak/Access-Token-Refresh-Token
+https://dooopark.tistory.com/6
+https://www.tutorialspoint.com/oauth2.0/refresh_token.htm
+
+* 쿠키에 jwt저장하기
+https://ichi.pro/ko/ban-eung-injeung-kukie-jwtleul-jeojanghaneun-bangbeob-57608818986625
+
+//로그인 모듈에 쓰이게 되는 페이지들
+index.tsx
+Root.tsx
+API.tsx
+SignInPage.tsx
+SignInV2.tsx
+Routers.js
+constnats.tsx
+RoundButton.tsx
+InputCont.tsx
+
+
+3. router / 권한 별 router
+https://jeonghwan-kim.github.io/dev/2020/03/20/role-based-react-router.html
+
+4. 나중에 작업할 내용들
+Billing 이랑 pay 를 빼고 가자.  User 도 빼고 가자. 
+(confirmEmail, reset password, forgot password)
+
+
+
+
+
+
+
+

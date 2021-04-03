@@ -1,0 +1,95 @@
+Today I learned
+
+ㅋㅋㅋ 결국은 endpoint 주소가 잘 못된 거였다. 
+그래도, 많은 공부를 했구만.. 공부했던 내용을 정리해 보자.
+더불어 블로그에 올릴내용도 같이 정리!
+
+
+** npm 모듈들..
+
+uppy npm 모듈
+https://uppy.io/docs/
+
+유명한 tus
+https://tus.io/
+
+use form
+https://react-hook-form.com/api/
+
+
+## Redux 하느라 죽는줄 알았던..
+리덕스 대충 내용정리
+https://velog.io/@thms200/Redux-%EC%A7%81%EC%A0%91-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0
+
+노마드 코드 redux도 많은 도움이 되었었다. 
+
+
+## response error들
+
+cors 에러
+https://developer.mozilla.org/ko/docs/Web/HTTP/CORS
+
+
+413 에러
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/413
+
+https://stackoverflow.com/questions/18121227/how-to-avoid-request-entity-too-large-413-error
+https://github.com/golang/go/issues/22209
+
+-> 하지만, 나의 경우는 chunk 크기를 작게 해줌으로써 해결할 수 있었다. (https://uppy.io/docs/tus/#chunkSize-Infinity)
+chunk크기를 조절하는 옵션은 uppy tus에 있는 옵션을 통해서 조절 할 수 있었다. 
+
+404 에러
+endpoint를 잘 못 썼을 수 있는 아주 결정적인 에러다. 
+이거 나오면 한번쯤은 주소를 생각해 봐야 한다. 
+
+
+## 그외에 읽어보고 싶었던 글들
+
+*How to make HTTP requests with Axios
+https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/
+
+*HTML 파일 업로드 Progress 구현원리
+https://m.blog.naver.com/PostView.nhn?blogId=jjoommnn&logNo=130033462215&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+* Login access token , refresh token
+https://velog.io/@daybreak/Access-Token-Refresh-Token
+
+* 로그인에 관한 기타 다른 글들
+https://dooopark.tistory.com/6
+https://blog.cornsworld.co.kr/m/503?category=813170
+
+## git 관련 이슈
+git에서 특정 파일 제외 : (ex. backend 폴더 제외 : git add -- . ':!backend/*')
+http://rapapa.net/?p=85
+
+## 업로드 관련해서 차근차근 알아보기
+https://velog.io/@pyo-sh/Spring-Boot-%ED%8C%8C%EC%9D%BC%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
+
+html input 태그에 관해서
+https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input/file
+
+* api에 관해서
+https://www.youtube.com/watch?v=ogT267HvNuQ
+
+* 서버 통신에 관해서
+https://www.youtube.com/watch?v=FN_D4Ihs3LE
+
+* 와, 이건 정말 완전 강력추천인데? 꼭, 이런것도 공부해 보고 싶다. 
+https://www.reddit.com/r/Frontend/comments/lz6pfe/which_courses_are_worth_it/?%24deep_link=true&correlation_id=796f6878-4476-412d-bb7d-2ef46b5aa00a&post_fullname=t3_lz6pfe&post_index=1&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+
+* Typescript에 관한글. 나중에 읽어보고 싶음.
+https://itnext.io/the-art-of-type-programming-cfd933bdfff7
+
+* 온라인 에디터네? 흥미롭다!
+https://www.reddit.com/r/javascript/comments/m6v05g/copenhagen_free_lightweight_open_source_and/?%24deep_link=true&correlation_id=3d0f18d2-b0d1-4a56-bdcd-03aa4126e84d&post_fullname=t3_m6v05g&post_index=1&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+
+* about non-blocking I/O
+https://www.reddit.com/r/node/comments/m74jer/nonblocking_io_and_how_node_uses_it_in_friendly/?%24deep_link=true&correlation_id=3d0f18d2-b0d1-4a56-bdcd-03aa4126e84d&post_fullname=t3_m74jer&post_index=2&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+
+* about smart contract
+https://www.youtube.com/watch?v=3I5_D-deQT0
+
+
+
+

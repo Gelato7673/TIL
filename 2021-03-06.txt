@@ -1,0 +1,6 @@
+Today I Did
+
+1. absolute로 그 안에 들어가도록 만들어야겠다. 
+2. styled-componenet snippet필요한듯.
+3. a링크에다가 뭔가 추가를 하자. 또다른 모달을.. 음... 어떻게 해야하지. 여튼...
+

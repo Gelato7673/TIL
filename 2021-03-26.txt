@@ -1,0 +1,4 @@
+visual studio 단축코드 보기
+
+https://code.visualstudio.com/docs/setup/mac
+https://withhsunny.tistory.com/57

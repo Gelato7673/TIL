@@ -1,0 +1,45 @@
+1. property does not exist on type
+
+-props는 objec이다. 따라서, page역시 props의 객체에 들어가 있는, 객체의 내용이다. 따라서 any가 더 적합한 것이다.  
+
+const Item = ({page}: any) => {
+
+    return <h1>{page}</h1>
+}
+
+2. react에서의 if/else
+전달된 props를, console에서 찍어보기 (return 전에 찍어보면 된다.)
+
+3. Link to 에다가 props로 링크 추가하기
+``를 이용한다. 
+https://medium.com/@ghur2002/react-router%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-component%EA%B0%84%EC%97%90-props-%EB%84%98%EA%B2%A8%EC%A3%BC%EA%B8%B0-610de3511c67
+
+3. Javascript로 array 작성하기
+https://developer.mozilla.org/en-US/docs/Glossary/array
+
+4. 맵 작성하기
+react에서 javascript를 쓸때는 {}를 잊지말것.
+
+{
+  required.map((item) =>
+    <li>{item}</li>
+  )
+}
+
+5. makestyle은 어떻게 하는 거더라.. (component-styled)
+
+6. 기억할 스타일
+import Theme from '../styles';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+폰트나, 기본이 되는 스타일들...
+
+import Theme from '../styles';
+// import from '.../styles/globalStyle;
+
+
+7. 이미지는 모아서 로딩되도록 만들어 주자. 
+(스타일 끝나고 이미지 모아서 로딩되는 부분 만들어 두기) 
+
+4. 에러메세지 
+: Manifest Line26이 과연 무엇인가...
+

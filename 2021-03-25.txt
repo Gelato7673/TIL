@@ -1,0 +1,78 @@
+sound wave modules
+https://wavesurfer-js.org/
+
+잊지마 (이건 정말..) 
+http://localhost/v1/documentation
+
+Javascript thumbnail
+https://usefulangle.com/post/46/javascript-get-video-thumbnail-image-jpeg-png
+
+
+
+=======
+낙서장. 다 되면 지우자. 
+
+createStore(reducer);
+
+
+--
+
+import { createStore } from "redux";
+
+
+const ADD = "ADD";
+const MINUS = "MINUS";
+
+const countModifier = (count = {}, action) => {
+	swtich (action.type) {
+		case ADD:
+			return count + 1;
+		case MINUS:
+			return count - 1;
+		default:
+			return count;
+	}
+}
+
+const countStore = createStore(countModifier)
+
+const onChange = () => {
+	console.log('Now, the sate is changing.')
+}
+
+countStore.subscribe(onChange);
+
+countStore.getState();
+
+const handleAdd= ()=> {
+	countStore.dispatch({type: ADD});
+}
+const handleMinus = ()=> {
+	countStore.dispatch({type: MINUS});
+}
+
+
+
+-----
+state of the this application.
+
+state = {
+	signIn : false,
+	video : {
+		uploaded
+	}
+}
+
+====
+count is the state. 
+
+----
+redux-react
+react provider
+
+=====
+
+I need to study about combineReducers.
+
+
+

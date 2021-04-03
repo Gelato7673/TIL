@@ -1,0 +1,187 @@
+set / Hook / redux
+파일송수신
+- 해보면서 할 것. 
+
+(1. state 쓰는법. 끝났음)
+(2. hook 쓰는법. )
+- 둘다 알아야 할듯.
+
+-> 아마도 class에서만 state가 되었었는데, 이부분이 개선되었을듯.
+
+* React Redux vs Context API
+- https://medium.com/lunit/%EB%8B%B9%EC%8B%A0%EC%97%90%EA%B2%8C-redux%EB%8A%94-%ED%95%84%EC%9A%94-%EC%97%86%EC%9D%84%EC%A7%80%EB%8F%84-%EB%AA%A8%EB%A6%85%EB%8B%88%EB%8B%A4-b88dcd175754
+- https://velog.io/@cada/React-Redux-vs-Context-API
+- https://egg-programmer.tistory.com/281
+
+* 웹 socket
+https://www.google.com/search?biw=1680&bih=976&sxsrf=ALeKk00C6guX3rpg_GrUl-312eDC3-steQ%3A1615184809617&ei=qcNFYOqfJYT6-QbzhKfIDA&q=react+socket+%ED%86%B5%EC%8B%A0&oq=react+socket&gs_lcp=Cgdnd3Mtd2l6EAMYAjICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BwgjELADECc6BAgjECc6CAgAELEDEIMBOgoIABCHAhCxAxAUOg0IABCHAhCxAxCDARAUOgUIABCxAzoHCCMQ6gIQJzoECAAQQzoKCAAQsQMQgwEQQzoHCAAQsQMQQzoHCAAQhwIQFFDfO1jWVGDuZWgDcAB4AIABnQGIAbkNkgEEMC4xNZgBAKABAaoBB2d3cy13aXqwAQrIAQHAAQE&sclient=gws-wiz
+
+* redux 해보기
+https://gaemi606.tistory.com/entry/React-socketio를-활용한-채팅-Nodejs-redux
+
+*SWR
+https://min9nim.now.sh/2020-09-04-react-swr/
+https://dohoons.com/blog/2058/
+---------------
+
+** 기억할 내용들
+- terminal
+docker-compose up --build
+
+- .env파일 만들어서 붙이기
+#  --- SQL CONFIG ---
+SQL_USER=root
+SQL_PASS=root
+# SQL_HOST=mysql-service.music-swapper
+SQL_HOST=mysql
+SQL_PORT=3306
+SQL_DATABASE=api
+
+# --- SERVER CONFIG ---
+SERVER_PORT=:5050
+UPLOAD_PORT=:8080
+SOCKET_PORT=:3000
+
+# --- JWT CONFIG ---
+JWT_SALT=mysecret
+JWT_ISSUER=thomas
+
+# --- REDIS ---
+REDIS_PORT=6379
+REDIS_QUEUE_SPLIT=splitResult
+REDIS_QUEUE_MOOD=moodResult
+REDIS_QUEUE_APPLY=applyResult
+REDIS_QUEUE_ERROR=errorResult
+# REDIS_HOST=redis-service.music-swapper
+REDIS_HOST=redis
+
+# --- S3 ---
+AWS_REGION=ap-northeast-2
+AWS_ACCESS_KEY_ID=AKIA4J62PO4DHKIIJUPP
+AWS_SECRET_ACCESS_KEY=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
+AWS_BUCKET_VIDEO=cochl-video-upload
+AWS_BUCKET_AUDIO_BANK=cochl-audio-bank
+AWS_BUCKET_METRICS=cochl-music-swapper-metrics
+AWS_BUCKET_MODEL=cochl-music-swapper-model
+
+# --- IMAGES --- 
+WORKER_IMAGE=worker
+MODEL_IMAGE=model
+
+# --- MAIL ---
+MAIL_PASSWORD=
+MAIL_USER=tvictoria@cochl.ai
+
+# --- WORKER --- 
+WORKER_LOCALHOST=http://127.0.0.1
+WORKER_PORT=3030
+WORKER_SHARED_FOLDER=/build/shared/
+
+# --- GLOBAL ---
+BASE_FILE_PATH=/v1/files/
+# BASE_URL=http://api-service.music-swapper:8080
+BASE_URL=http://localhost
+ENV=TEST
+
+# --- JWT CONFIG ---
+JWT_SALT=someverysecretsecret
+JWT_ISSUER=https://music-swapper.beta.cochl.ai/
+
+- core/dockerfile/Api.Dockerfile
+FROM golang:1.15
+
+WORKDIR /build
+
+COPY ./go.mod ./go.sum ./
+RUN go mod download
+
+COPY ./server ./server
+COPY ./.env ./
+COPY ./core ./core
+
+COPY ./test ./test
+
+RUN  go build -o apiserver ./server
+
+
+- core/dockerfile/Migration.Dockerfile
+FROM ubuntu:bionic
+
+RUN apt-get update && \
+    apt-get install -y \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent
+
+RUN curl -sSL https://packagecloud.io/golang-migrate/migrate/gpgkey | apt-key add -
+RUN echo "deb https://packagecloud.io/golang-migrate/migrate/ubuntu/ bionic main" > /etc/apt/sources.list.d/migrate.list
+RUN apt-get update && \
+    apt-get install -y migrate
+
+RUN migrate -version
+
+COPY ./core/migrations ./
+COPY ./.env ./
+
+COPY ./core/wait-for-it.sh .
+
+
+- core/dockerfile/Worker.Dockerfile
+FROM golang:1.15
+
+WORKDIR /build
+
+# FFMPEG
+RUN apt-get update && apt-get install -y ffmpeg
+
+COPY ./go.mod ./go.sum ./
+RUN go mod download
+
+COPY ./worker ./worker
+COPY ./core ./core
+COPY ./.env ./
+
+COPY ./core/wait-for-it.sh .
+
+RUN  go build -o workerexec ./worker
+
+- utils / config.go
+package utils
+
+import (
+  "log"
+  "os"
+
+  "github.com/joho/godotenv"
+)
+
+// ConfigInit initialise env based on .env file
+func ConfigInit() {
+  if os.Getenv("ENV") != "DOCKER_TEST" {
+    err := godotenv.Load()
+    if err != nil {
+      log.Fatal(err)
+    }
+  }
+}
+
+
+==============================================
+
+일단, insomnia에서 잘 되는지 확인해 보자. 
+
+
+* 스타일 같은 것이 따로 없는. small first로 시작한다. 
+small. first 작은 예제로 셋팅을 해서, 사용을 해보고, 주요기능의 작동이 되면, 그걸로 하면 좋을 것 같다. 
+
+일단, 현재 상태를 commit을 하고, small-first로 진행을 한다. 
+
+-----
+해당 api의 데이터를 다 볼 수 있는 방법은 없나?
+
+
+
+
+
+

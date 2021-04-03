@@ -1,0 +1,45 @@
+Today I learned
+
+1. Mercedes Bentz : 먼저 해주고 (수정사항 오면은 해주고, 아니면 말구.)
+2. 뮤직스와퍼 오늘의 할당량 채워주자. 제발 퇴근전에 하고 가길 바람. 
+3. 다 올리고, 파일 받아오는 부분을 구현하고 (다른 데이터로 연결해서 테스트 해보고)
+4. 구현했으면, 같이 나오도록. front-end 부분을 구현하고 (여기까진 가야한다.)
+
+------------
+.map 
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+item
+https://developer.mozilla.org/ko/docs/Web/API/HTMLCollection/item
+
+filter
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+=====
+
+<Link
+      to={node.fields.slug}
+      style={{textDecoration: 'none'}}
+      >
+      <div className={classes.newsItem}>
+      <div>
+        <img src={node.frontmatter.imageURL} className={classes.image}></img>
+      </div>
+      <Typography variant='body2' style={{paddingTop: theme.spacing(3), paddingLeft: theme.spacing(4)}}>	
+        <div className={classes.newsItemSubtitle}>	
+          <div>{node.frontmatter.category}</div>	
+          <VerticalDelimiter length='12px' thickness='1px' color={NEWS_CATEGORY_COLOR}/>	
+          <div>{node.frontmatter.date}</div>	
+        </div>	
+      </Typography>	
+      <Typography variant='subtitle1' className={classes.newsItemTitle} style={{ color:'black', padding: theme.spacing(0.5, 4)}}>	
+      {node.frontmatter.title}
+      </Typography>
+      </div>
+    </Link>
+
+====
+무엇을 주느냐에 따라서 변하겠지만. 
+일단, map을 제대로 구성해 두고, 
+해당 list를 붙여 보는 것도 방법일 수 있을 것 같다. 
+ㅔ

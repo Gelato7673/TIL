@@ -1,0 +1,6 @@
+맥 컬러 피커
+https://macinjune.com/all-posts/mac/tip/%EB%A7%A5%EB%B6%81-macos-%EA%B8%B0%EB%B3%B8-color-picker-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/
+
+
+Visual studio code 단축키로 실행하기
+https://code.visualstudio.com/docs/setup/mac

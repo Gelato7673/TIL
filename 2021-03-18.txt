@@ -1,0 +1,18 @@
+파일전송 이벤트의 기본
+https://velog.io/@pyo-sh/Spring-Boot-%ED%8C%8C%EC%9D%BC%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
+	
+버튼으로는 어떻게 구현하지? 이건 추후에 알아봐야지 .
+https://velog.io/@yaytomato/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%90%EC%84%9C-%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0
+
+메모리 leak
+https://velog.io/@ohgoodkim/-%EC%97%90%EB%9F%AC%EB%85%B8%ED%8A%B8-Cant-perform-a-React-state-update-on-an-unmounted-component
+
+input에서 파일은 어디에 저장이 되나요?
+
+https://ingoing190438447.wordpress.com/multipart-form-data/
+
+input file
+https://developer.mozilla.org/ko/docs/Web/HTML/Element/Input/file
+
+
+--------

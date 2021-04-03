@@ -1,0 +1,31 @@
+* gelato + todo (after noon)
+* In this week. 
+- change some style component
+- I also working about project page.
+  (Uploading video and making project. I expect to finish this work until monday or tuesday.)
+- and then start to work about video player. 
+
+-------------------
+Today I will do. 
+working with redux (start!)
+- nico and book 
+- making in login module이 나을까? (현재 backend가 로그인 모듈로 돌아가니까, 그렇게 하자. 간단하게라도 만들어서)
+- 그리고, 동영상 업로드 하는 부분까지 완료를 하는데,
+(head에 들어가야 할 내용들. 그리고, 파일제한 거는 내용들을 찾아보고, 필요한 부품들 완성도 있게 하고)
+- 내용들을 불러 와서 관련된 내용들을 뿌려주자. 
+
+-----
+use State에 있는 기능들이 생각이 안나. 
+- manifesto.json
+- webvital
+
+-----
+Reducer
+https://velog.io/@thms200/Redux-%EC%A7%81%EC%A0%91-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0
+
+----
+Tus
+https://github.com/tus/tus-js-client
+
+
+

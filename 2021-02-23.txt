@@ -1,0 +1,15 @@
+Today I learned (이전것도 포함해서 지금까지 한일들 정리해두기)
+* Today I learned 중간점검!
+
+[Music swapper UI/Ux]
+- UI/UX flow conversation 
+- about web-font, svg icon
+- about user guideline
+
+[Music swapper sketch]
+- flow sketch
+- styled-component, material-ui, redux
+- typescript, axios, player(...?)
+
+
+

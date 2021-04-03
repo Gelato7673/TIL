@@ -1,0 +1,11 @@
+Today I did
+
+1. 데이터 유형 참조하기
+https://velog.io/@surim014/%EC%9B%B9%EC%9D%84-%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94-%EA%B7%BC%EC%9C%A1-JavaScript%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-part-7-Object-35k01xmdfp
+
+2. 원래, 같은 object(객체)에서 this로 참조가 안되는 것인가? 하긴.. 안되긴 할 것 같다만 서도.
+typography를 쓸 것인가? 라는 문제가 있는데, 인터페이스의 조절이 안되면, 쓰면 안될 것 같다는 생각도 든다. (<- 이거 알아봐야할듯)
+
+3. flexbox 완벽가이드 인데, 과연 완벽가이드 인지..모르겠다.
+https://heropy.blog/2018/11/24/css-flexible-box/
+- flexbox 익히고 다시오기

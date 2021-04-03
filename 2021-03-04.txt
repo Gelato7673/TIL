@@ -1,0 +1,67 @@
+Today I did
+
+1. about flex
+display: flex (not flexbox)
+https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+
+2. about typescript error => property does not exist on type 'jsx.intrinsicelements'
+https://stackoverflow.com/questions/37414304/typescript-complains-property-does-not-exist-on-type-jsx-intrinsicelements-whe
+
+3. styled-component에서 befor after 사용하기
+https://stackoverflow.com/questions/45871439/before-and-after-pseudo-classes-used-with-styled-components
+
+4. material icon 추가하기
+추가하는 방법
+https://www.daleseo.com/material-ui-icons/
+
+material icon 리스트
+https://material-ui.com/components/material-icons/
+
+5. navigation에서 중복을 피하는 방법.
+props를 이용한다.
+
+6. props에서 타입 체크하도록 만드는 방법. 
+const Item = ({ page } : { page: string }) => {
+    const check = {page};
+}
+
+function Food({ favourite }) {
+  return <h1>I like {favourite}</h1>;
+}
+https://github.com/nomadcoders/movie_app_2019/commit/fe46e7d72f881957b8b02b9577a2a653cc564df3
+
+7. JSX에서 if, else
+https://stackoverflow.com/questions/53609606/preact-typescript-conditional-rendering-expression-expected
+
+8. 만약에 특정 props에서는 해당 element가 보이지 않도록 처리.
+if문은 official-web을 보고 처리하자. 
+props로 내용 주고 받는 부분, 다시한번 볼것. 
+props로 전달되고, 자바스크립트를 넣는 부분. 
+(훅에서 이게 가능한 것인가? 라는 생각.)
+mapping 으로 생각해 보자. 
+
+9. 단축키로 해야, 좀.. 나을지도.
+emmet
+https://code.visualstudio.com/docs/editor/emmet
+
+styled-components-snippet
+https://marketplace.visualstudio.com/items?itemName=jonkwheeler.styled-components-snippets
+
+* emmet 관련해서 확장프로그램 등 쓰는 방법
+https://m.blog.naver.com/ajdkfl6445/221459097158
+
+
+11. 클래스 쓰는 방법이랑, 이미지 모아놓는 방법 카피
+- 이미지 url만들기
+https://velog.io/@hwang-eunji/PROJ-FOODLY-DAY3-%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%9E%84%ED%8F%AC%ED%8C%85
+로컬일때는 필요없고, 서버에 올렸을때 쓰면 된다. 
+로컬일때는 1, 서버일때는 2
+import logo from '../images/logo.png'
+import {LogoImg} from '../constants/ImageUrls'
+
+12. import / export 
+https://ko.javascript.info/import-export
+
+13. cannot be compiled under '--isolatedmodules'
+https://stackoverflow.com/questions/33977054/cannot-compile-namespaces-when-the-isolatedmodules-flag-is-provided
+

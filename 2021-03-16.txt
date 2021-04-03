@@ -1,0 +1,8 @@
+Today I learned
+
+1. redirect의 용도.
+redirect의 용도가 내가 생각한 거랑 반대였네.
+
+
+react-hook-form에 관한 내용들
+https://react-hook-form.com/api/

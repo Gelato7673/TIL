@@ -1,0 +1,114 @@
+Today I learned
+1. react와 훅을 이용해서 파일 업로드 구현하기
+https://www.pluralsight.com/guides/uploading-files-with-reactjs
+(기타내용
+* React로 파일 업로드 구현하기
+https://velog.io/@kyo3553/React-05-%ED%8C%8C%EC%9D%BC-%EC%97%85%EB%A1%9C%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
+
+* ref와 state를 사용해서. 업로드 구현
+https://negabaro.github.io/archive/react-file-upload)
+
+2. From data()
+https://developer.mozilla.org/ko/docs/Web/API/FormData/FormData
+
+3. 파일을 전송할때는 fetch인데, 음. axios 로 하면 어떻게 다른지 보자.
+https://developer.mozilla.org/ko/docs/Web/API/FormData/FormData
+
+4. npm module인 useform은 어떻게 다르지 보자. 
+
+5. 입력 필드 관련
+useform 은 validation 필드와 관련된 것 입니다. 
+https://react-hook-form.com/kr/get-started/#IntegratingControlledInputs
+
+6. fetch에 관해서
+https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Using_Fetch
+
+7. fetch
+https://www.zerocho.com/category/HTML&DOM/post/595b4bc97cafe885540c0c1c
+
+-------------
+8. axios를 사용해서 업로드
+https://solbel.tistory.com/886
+https://velog.io/@zofqofhtltm8015/Axios-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%84%9C%EB%B2%84-%ED%86%B5%EC%8B%A0-%ED%95%B4%EB%B3%B4%EA%B8%B0
+
+9. 서버와 통신하기
+https://velog.io/@zofqofhtltm8015/Axios-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%84%9C%EB%B2%84-%ED%86%B5%EC%8B%A0-%ED%95%B4%EB%B3%B4%EA%B8%B0
+https://reqres.in/?fbclid=IwAR0hhe_cxVwzJHgrT6siWRQloSODOwDd2QQVlmpob3N0a6SyJXiYSVXd12U
+
+10. 아하. 널.. 값일 수 있다고. 그러면, 아닐때 찾아서 예외처리해주고, 
+물어봐야겠다.
+
+11. object is possibly 'null'
+https://kyounghwan01.github.io/blog/TS/object-null/
+
+12. property value does not exist on type htmlelement
+https://stackoverflow.com/questions/12989741/the-property-value-does-not-exist-on-value-of-type-htmlelement
+
+13. property 'value' does not exist on type htmlelement
+https://stackoverflow.com/questions/12989741/the-property-value-does-not-exist-on-value-of-type-htmlelement
+
+14. 로그인으로 일단 push를 해보고,  
+
+** 현재 안되는 부분을 집어서 물어보고, 그 부분을 해결하고 (어떤것들은 push 해야하는지)
+일단, 목록을 만들어 봐야 하려나.. 음.. 그러네.
+** 그리고, 음.. 어떤걸 가지고 와야 하는지도 알면 좋겠다. 
+
+
+** 거기서 하는 부분은..
+그냥 보고 하는 것이 나을 것 같다. 
+axios 통신중인데, {movie}에러가남.  (가져오는것. 부터)
+
+
+-----
+1. 아마 그게 키로 들어가는 것 같다. 
+
+2. sql로 데이터 스트럭쳐를 조회해서 봐야할 것 같다. 
+[Redis + SQL]
+http://redisgate.kr/redis/sql/select_intro.php
+https://postitforhooney.tistory.com/entry/RedisDB-Redis%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%ED%8D%BC%EC%98%B4
+
+3. mysql이랑 redis 두개
+https://sungwookkang.com/1313
+https://rastalion.me/redis-6-redis-db-%EC%A0%95%EB%B3%B4-%EC%A1%B0%ED%9A%8C-%EB%B0%8F-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/
+https://medium.com/garimoo/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%A0%88%EB%94%94%EC%8A%A4-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-01-92aaa24ca8cc
+
+subterminal로 가서 붙어야 하나.?
+
+5. 서버에서 redis로 찾아가서, 내용 보기
+
+4. get, post 통신이 database랑 어떻게 연결되는지 이 부분을 체크할 필요가 있을 것 같다.
+어떻게 parameter값으로 통신을 하는지, 어떻게 저렇게 폴더가 생성되어서 가는지. 
+그런 부분을 체크할 필요가 있을듯.
+
+5. XHTTP request
+*******
+
+6. Documentation
+http://localhost/v1/documentation
+install insomnia plug in
+insomnia에서 (base로 tocken을 깔고 가야해)
+
+7. 잘 들어왔는지는 network에서 확인해야하나, console에서 확인하는건 아닐테고,
+여튼 그러함.
+
+
+----------
+
+redis관련해서 힘든데, 도움이 되길
+
+redis-cli로 접속하는 방법
+https://jojoldu.tistory.com/348
+
+특정포트로 run시키는 방법
+https://jeremylindsayni.wordpress.com/2016/11/24/connect-to-a-redis-container-hosted-in-docker-from-a-net-core-application/
+
+*레디스 관련 중요 사이트들
+https://m.blog.naver.com/PostView.nhn?blogId=pjt3591oo&logNo=220854695439&proxyReferer=https:%2F%2Fwww.google.com%2F
+http://engineersinkorea.com/2020/08/06/redis-config-set/
+https://jeremylindsayni.wordpress.com/2016/11/24/connect-to-a-redis-container-hosted-in-docker-from-a-net-core-application/
+https://jojoldu.tistory.com/348
+http://jmlim.github.io/redis/2019/06/19/redis-cli-remote-connect/
+
+* redis lap
+https://redislabs.com/redis-enterprise/data-structures/
+

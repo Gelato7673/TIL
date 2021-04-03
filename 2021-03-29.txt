@@ -1,0 +1,21 @@
+Today I learned
+
+코드 클린. 
+-> 특히 sign in 관련된 부분에 관해서, 클린하고
+-> 전체 정리하고
+-> 업로드 모듈 부분 정리해서 만들어두고
+-> 데이터 받아오면, 기존의 player모듈에서 play할 수 있도록 하고. 
+
+------
+* sign in 부분.
+https://www.figma.com/file/jtaRpxeMo2AsESmExsYMl4/Final_V1?node-id=571%3A165
+
+** 업로드 하는 부분
+http://file.music-swapper.beta.cochl.ai/v1/files/
+
+** 토큰은 가져와서 실어 보내야 하는걸까?
+주소가 틀린걸까?
+
+** 유저정보를 가져와야 하는걸까? 글쎄.
+
+-------

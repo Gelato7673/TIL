@@ -1,0 +1,106 @@
+Today I learned
+
+1. action이 어떻게 전송되는지 볼 것. 
+
+
+1. add redux
+2. add login-module
+
+------
+
+1. typescript로 된 redux 설치하기
+https://velog.io/@velopert/use-typescript-and-redux-like-a-pro
+
+2. redux 사용하기
+https://chanyeong.com/blog/post/21
+
+3. 다시 원래대로 셋팅하기.
+여기에다가 훅이랑 만들어서 사용하기
+dashboard를 보고, 참조해 가면서 만들어 보기
+
+------------
+일단은 모듈만 붙이자. (로그만 모듈만!)
+이제, 토마스 꺼랑 연결하자.  
+
+-------
+router 수정하기
+------
+
+로그인 모듈이랑 붙이는 거는 나중에 진행하자. 
+
+
+필요없는거 삭제는 이 프로젝트 끝날때나 하자. 
+
+Could you check beta server some video files uploaded on this early morning as ascho account?
+
+-------
+
+test
+
+uppy file uploader
+https://preview.keenthemes.com/metronic/demo1/crud/file-upload/uppy.html
+
+----------
+
+git add -- . ':!backend/*'
+
+----------
+
+
+const handleSignIn = async (event: React.FormEvent)=> {
+    event.preventDefault()
+    try{
+      const response = await getToken(FormState.values)
+      if (response.status == 200 || response.status == 204){
+          localStorage.setItem('token', response.data.token)
+          const Token = localStorage.getItem('token') || ""
+          console.log('success')
+          //dispatch to store state.
+          setAuth("true")
+          history.push('/Projects')
+      } 
+    } catch(e){
+        alert('Email or pasword is incorrenct!');
+    } finally{
+        console.log('sign-in is working!') 
+          
+    }
+  }
+
+
+1. data
+
+[new beta version]
+- getVideoData (video thumnail??)
+- getUserData
+
+2. video
+- getVideoData (from server)
+- loading the page
+
+
+
+--------
+
+** conversation
+about thumnail.
+about delete
+
+--------
+
+로그인 layout좀 바꾸자. 
+
+
+
+dispatch된걸 다시 넣어줘야 할텐데 ...
+
+
+---------
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzY2hvQGNvY2hsLmFpIiwidXNlciI6dHJ1ZSwiZXhwIjoxNjE3MTc5NjIwLCJpYXQiOjE2MTcwOTMyMjAsImlzcyI6Imh0dHBzOi8vbXVzaWMtc3dhcHBlci5iZXRhLmNvY2hsLmFpLyJ9.h5fdMuT-fEjZvKwNSWaxDajl5yt8LRhMMbEhTAh49EA
+
+--------
+
+userId
+
+

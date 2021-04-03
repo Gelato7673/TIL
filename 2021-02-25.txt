@@ -1,0 +1,20 @@
+This week 
+
+1. Music swapper
+I spent a lot of time to have a meeting about User Interface. so we fixed many things especially, about adjusting and adding music. and sometimes, talk about very detail things like using what kinds of web-font, and svg icon, and so on..!
+personally, I found some react npm modules like about video player and networking with server like a reducks or axios. and styling modules.
+
+2. maintainance official-web, and dashboard. 
+I have a little maintainance about official-web, and dashboard.
+that's all!
+
+[Music swapper UI/Ux]
+- User Interface
+- about web-font, svg icon
+- about user guideline
+
+[Music swapper sketch]
+- flow sketch
+- npm modules
+- styled-component, material-ui, redux
+- typescript, axios, player(...?)

@@ -1,0 +1,109 @@
+Gelato 
+이번주 트렌드 (3월 1주차)
+
+1. docker를 재 부팅하는것과 css cashing 이슈
+지금까지 알고 있던 css cashing
+-> 같은 주소의 파일을 보내면 refreshing을 하지않으니까, 새로운 주소를 보내서 cashing 없이 새로운 파일을 불러 오게 한다. (웹 캐시)
+https://css-tricks.com/can-we-prevent-css-caching/
+
+이 웹 캐시에 대해 좀더 자세한 글이 있다.
+https://cyberx.tistory.com/9
+
+궁금한건, 이 웹 캐시가 서버가 껐다 켰을때에도 적용되는가, 하는 부분이다.
+이건, 서버를 재 시작할때, 캐시를 사용하지 않겠다는 내용이 들어가 있어야 웹 캐시의 사용이 없는것 같다.. (현재의 추측성 결론)
+https://joalog.tistory.com/31
+
+2. css in js
+[styled-component / material-ui 로 스타일 잡을때.]
+- const로 해서, 컴포넌트로 해서 스타일을 주는법 
+%highlight%
+import styled from 'styled-components';
+const InnerWrap= styled.div`
+`
+%highlight%
+
+- 그냥, li, a 같은 원래 태그를 가지고 스타일을 잡을 수 있는지
+으흠. 좀더 나은 방법을 찾은 것 같아. 
+https://github.com/styled-components/styled-components/issues/2113
+
+%highlight%
+const WrapArea= styled.div`
+    ${Wrap}
+    div {
+        background-color: purple;
+    }
+`
+%highlight%
+그냥, 이렇게 쓰면 되는거였음!
+
+- 글로벌 속성에 대해서 (class를 모아서 관리할 것인가?! 아니면, data로 스타일을 만들어 놓고 상속해서 쓸 것인가. ) 
+글로벌 속성들을 class로 모아서 관리해도 되는데, 저렇게 중간중간 클래스로 줘도 되긴하지.. 음.. 그치만,
+어떤게 나은가를 생각해보면.. 클래스로 주는건, 인라인으로 주는거랑 다름이 없으니까. 
+사실, 유지보수 측면에서 그렇게 권장 되는 방법은 아니라고 봐. 나는..
+
+- 만약, 이벤트에 의해서 스타일이 바뀌어야만 한다면?
+클래스를 여러개 주거나, 속성에서 javascript로 조건으로 불러 오는게 있겠지?
+
+3. 이번주 레딧을 읽고 정리
+- type script의 새로운 usage
+https://www.reddit.com/r/typescript/comments/lw391t/now_we_can_force_const_contexts/?%24deep_link=true&correlation_id=18fdb2ec-9cd6-4322-91bc-779ac2f9346b&post_fullname=t3_lw391t&post_index=1&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+- react & redux와 관련되 강의
+https://www.reddit.com/r/Frontend/comments/lvxnid/best_react_course_in_udemy/?%24deep_link=true&correlation_id=18fdb2ec-9cd6-4322-91bc-779ac2f9346b&post_fullname=t3_lvxnid&post_index=2&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+(강의 링크 : https://www.udemy.com/courses/search/?src=ukw&q=Stephen+Grider%27s+Modern+React%2FRedux)
+- Grid components가 좋아보여서 수집
+https://www.reddit.com/r/javascript/comments/lw4xdt/fast_smooth_react_data_grid/?%24deep_link=true&correlation_id=18fdb2ec-9cd6-4322-91bc-779ac2f9346b&post_fullname=t3_lw4xdt&post_index=4&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+- About typescript
+https://sospedra.me/papers/typescript-unions
+https://www.reddit.com/r/typescript/comments/lpw9tu/what_are_your_problems_or_issues_with_developing/?%24deep_link=true&correlation_id=2b304047-2743-4804-9987-0c9751465700&post_fullname=t3_lpw9tu&post_index=4&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+
+--------------------------
+draft(하고싶은일 -> end of music swapper)
+* 이번 프로젝트 끝나고 알아보고 싶은것. 
+새로운 트렌드. 뭐가 있을까? 
+- ssr 과 csr 랜딩에 대해서 정리
+- gatsby 와 next.js에 대해서 정리
+- klutter에 대해 써볼것. (써보고 써도 괜찮고.)
+- 10Things Every Next.js developer should know
+https://javascript.plainenglish.io/10-things-every-nest-js-developer-should-know-911dec32f66a
+
+*type script의 새로운 usage , 써보기
+https://www.reddit.com/r/typescript/comments/lw391t/now_we_can_force_const_contexts/?%24deep_link=true&correlation_id=18fdb2ec-9cd6-4322-91bc-779ac2f9346b&post_fullname=t3_lw391t&post_index=1&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+
+*What is the nestlify ?
+nomad coder에 컨셉 관련된 설명이 있었던 것 같은데..
+찾아보든가. 여튼..
+
+*끝나면, phython 으로 webscraper 만들어 보고 싶다. 
+
+* 이해해 보고 싶은..글?
+https://itnext.io/webrtc-for-beginners-how-it-all-works-from-the-outside-3c806f582229
+
+* 시도해 볼만한 사이드 프로젝트
+https://dev.to/liviufromendtest/5-projects-you-can-build-to-become-a-better-web-developer-221i
+
+---------------
+Today I learned
+
+* calc 사용해 봤음.
+- https://developer.mozilla.org/en-US/docs/Web/CSS/calc()
+ :단위를 써줘야 한다는 아쉬움이 있구먼.
+- https://developer.mozilla.org/ko/docs/Web/CSS/length
+- height는 변수로 해두면 좋겠다는 생각이 있구먼. (=> 변수로 했음.)
+
+** 주석을...그냥 다 뺄까 싶기도. 
+- 나중에 올릴때 정리하자.
+
+** Jsx에서 Inline으로 스타일 주는 법
+https://reactjs.org/docs/dom-elements.html#style 
+
+
+- 하던걸 마저해서, 스타일 작업을 끝낸다. 
+- 지금 스타일, 상속으로 고친다. (commit전에)
+- theme은 현재로써는 만들생각이 X. 필요할때가 되면(dashboard의 로그인을 붙인다면?) 그때 만들자. 
+
+* 레이아웃은 페이지에서 하고, 세부 컴포넌트들은 따로 뺀다. 
+* 언젠간... 음.. read.me 를 작성해야 할 것 같다.(프로젝트를 다 하고 나서)
+* 설치한 것들.
+styled-components-snippets 
+prettier설치 했음.
+
