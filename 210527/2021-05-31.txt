@@ -1,0 +1,57 @@
+// Today I did
+
+Think and search about hls problem.
+I think it's not make sense to make soundwave in front-end side. 
+because hls streaming module get data from server not at once. 
+
+
+// Today I learned
+
+* hls url usually have cors header problem.
+https://hls-js.netlify.app/api-docs/
+
+video element
+https://developer.mozilla.org/ko/docs/Web/HTML/Element/Video
+
+mime type
+https://help.encoding.com/knowledge-base/article/correct-mime-types-for-serving-video-files/
+
+video.js-wavesurfer
+https://collab-project.github.io/videojs-wavesurfer/#/examples
+
+HLS Support issues
+https://github.com/katspaugh/wavesurfer.js/issues/1078
+
+hls.js
+https://hls-js.netlify.app/api-docs/
+
+
+// After To-do list
+
+* running at demo and test with react after it.
+
+* example
+1. hls support issues를 가지고,
+2. video.js / wavesurfer 를 사용해 보자. 
+
+* reference
+https://github.com/collab-project/videojs-wavesurfer/issues/17
+https://github.com/katspaugh/wavesurfer.js/issues/1078
+https://github.com/collab-project/videojs-wavesurfer#using-the-plugin
+https://waveform.prototyping.bbc.co.uk/
+https://collab-project.github.io/videojs-wavesurfer/#/examples
+
+* waveform BBC
+https://github.com/bbc/waveform-data.js/blob/master/README.md
+
+* problem
+hls 가 정말 문제인게, data가 실시간으로 로딩되기 때문에 waveform을 만들수가 없네. 
+그러면, serverside rending을 이용해야하는데, 
+그러면, 기존 모듈을 아예쓸 수가 없다는 거니까..
+음, bbc 모듈에서는 어떨려나?
+wavesurfer에서는 별다른 문제를 찾을 수 없으려나?
+
+
+
+
+

@@ -1,0 +1,164 @@
+1. About agile Project
+https://www.atlassian.com/agile/project-management
+
+2. estimate the period of development
+when we requested estimate the period, we need to consider a lot of situation make it carefully.
+ 
+so, this is the process to estimate period (I recommended like this)
+- analyzed planning documentation
+- planning
+- separating the works
+- estimating the schedule
+- development
+- test
+- debugging
+- launch
+
+and, some people recommend to make the excel table following these kinds of things. (I classified following the agile words)
+- Classify the work
+	- Epic
+	- UserStory
+	- task
+- Priority
+- Level of difficulty
+- Estimated day
+- Real date
+- Dead line
+
+and, some people recommend me to multiply 2.5 from the date you pop up directly. if you are the newcomer. It also helpful sometimes.
+
+In my case, I used these kinds of things.
+at first, I just separate each of task by epic and make the user story as chunk, think about what kinds of feature and task will be happen in this story. 
+I usually separate the chunk of story details, so It's usually one feature has one story. but, sometimes one story has the various feature or task.
+we can give the size like T-shirts each of them following the complexity.
+
+I think, imagine the task is quite important, and we could check the problem,
+and I wrote the problem that I expected, if this problem is big. I estimated more days.
+
+And, I just review the each of user story following guide line (from the point of front-end developer)
+
+* Back-end
+- reviewing the code
+- make new feature (networking function)
+- test or debugging the code
+- conversation
+
+* Design
+- searching the reference
+- conversation
+- making new feature (styling)
+- reviewing the design
+
+* Front-end
+- searching the reference, or hwo to make new feature.
+- making new feature
+- test or debugging the code
+- refactoring the code
+
+* meeting buffer
+- we usually had the meeting every week. and some times we need to calculate the buffer. (somepeople recommend it's better etimating :1 week is 4days)
+
+And then, I estimate the day as each of item of guide line.
+and, when I summarize the date. It usually 5 days by one story because I also debugging and testing and requesting about back-end data.
+
+I don't know it's alright. after doing this schedule. 
+I think I need to adjust the way to estimate schedule. 
+
+3. User story board
+How to write the user story board. 
+(feature, story and so on...)
+https://www.vikingcodeschool.com/software-engineering-basics/working-with-agile-user-stories
+https://www.atlassian.com/agile/project-management/user-stories 
+
+4. Interesting Reddit
+Technical guide for auth
+https://www.osohq.com/developers/authorization-academy
+
+How to create mock-up server
+https://itnext.io/how-to-generate-mock-data-using-faker-js-and-json-server-1d17007a08e4
+
+Reseter.css
+https://www.reddit.com/r/Frontend/comments/mpv7yd/resetercss_a_futuristic_alternative_to/?%24deep_link=true&correlation_id=b0232e9e-2fa5-468e-9408-f02c010c0402&post_fullname=t3_mpv7yd&post_index=1&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+https://github.com/krishdevdb/reseter.css
+
+React with TypeScript
+https://mindaugasnakr.medium.com/react-with-typescript-55670137c2da
+
+Hot issues developing locally
+https://www.reddit.com/r/Frontend/comments/mhgo2o/making_api_calls_and_developing_locally/?%24deep_link=true&correlation_id=a3969a8e-d7bf-4f09-8acc-67a98d10c419&post_fullname=t3_mhgo2o&post_index=2&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+
+
+* interesting new feature in opensource
+Content-aware image resizing
+https://trekhleb.dev/blog/2021/content-aware-image-resizing-in-javascript/
+
+calendor open-source app
+https://github.com/calendso/calendso
+
+WinBox
+https://github.com/nextapps-de/winbox
+
+DevTools in chrome
+https://developer.chrome.com/blog/migrating-to-typescript/
+
+Cropro: Features
+https://markerjs.com/products/cropro/
+
+Game for css only.
+https://www.reddit.com/r/Frontend/comments/mjamo4/a_cssonly_proofofconcept_memory_game_that_works/?%24deep_link=true&correlation_id=631ef1c4-da6f-4900-8a27-1ce6931a2bc3&post_fullname=t3_mjamo4&post_index=2&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+
+Go lang for Node.js developers
+https://www.reddit.com/r/node/comments/mh1wvt/golang_for_nodejs_developers/?%24deep_link=true&correlation_id=a3969a8e-d7bf-4f09-8acc-67a98d10c419&post_fullname=t3_mh1wvt&post_index=3&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+
+
+* I just wodering following articles
+Building A Powerful ASCII Game Engine For The Browser
+https://www.reddit.com/r/javascript/comments/mq0ch4/building_a_powerful_ascii_game_engine_for_the/?%24deep_link=true&correlation_id=b0232e9e-2fa5-468e-9408-f02c010c0402&post_fullname=t3_mq0ch4&post_index=4&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+
+Why intersection when you can extend?
+https://www.reddit.com/r/typescript/comments/mo3n51/why_intersection_when_you_can_extend/?%24deep_link=true&correlation_id=f93a3b23-d204-4d23-b5e9-df3b4fd3f89a&post_fullname=t3_mo3n51&post_index=3&ref=email_digest&ref_campaign=email_digest&ref_source=email&utm_content=post_title&%243p=e_as&_branch_match_id=879938183012837194
+
+20 Best Machine Learning Courses Online
+https://medium.com/@devexpert/20-best-machine-learning-courses-online-4a7863c4326a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+technology should be checked after it. 
+
+The other day's article is 
+
+
+* It's quiet important.
+Type script and update the resume.
+lecture about react
+lecture about es6
+
+
+* check again. 
+
+
+
+
+
+
+
+

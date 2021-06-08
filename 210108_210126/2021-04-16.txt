@@ -1,0 +1,88 @@
+Today I learned
+
+video and Data networking. 
+clean up code
+
+play video without encoding problem.
+use the video.js
+
+---------
+projec page
+
+Add thumnail
+check the time after server working done. 
+
+------
+// This is the main
+https://docs.videojs.com/tutorial-webpack.html
+https://videojs.github.io/videojs-contrib-hls/
+
+// latest version of video.js
+https://github.com/videojs/video.js
+
+//최신버전
+https://github.com/videojs/Video.js/releases
+
+
+
+--------
+
+되는 예제를 찾는게 가장 중요할 거 같아.
+
+각각해서 pull request로 마무리 할 수 있도록
+
+---
+gelato7673.slack.com
+
+
+-----
+1. slack channel
+2. src 를 가지고 해본다.
+3. stack over flow를 가지고 해본다.
+
+
+-----
+type="application/x-mpegURL"
+https://cochl-video-upload-test.s3.ap-northeast-2.amazonaws.com/test/hls/upload/9x6rqa7ql1kybv7i.m3u8 
+http://d2zihajmogu5jn.cloudfront.net/bipbop-advanced/bipbop_16x9_variant.m3u8
+
+///
+
+vhs를 연결하고
+src랑 type을 javascript로 주는게 핵심이다.
+
+trouble shooting issue를 보자
+
+
+----
+https://github.com/videojs/video.js/issues/4751
+
+------
+*** 중요한 내용
+https://jsbin.com/gejugat/edit?html,output
+https://github.com/videojs/video.js/issues/4751
+https://github.com/videojs/http-streaming
+http://hlsbook.net/how-to-serve-hls-video-from-an-s3-bucket/
+https://github.com/brightcove/videojs-flashls-source-handler
+https://github.com/brightcove/videojs-flashls-swf
+https://github.com/videojs/Video.js/releases
+https://github.com/videojs/video.js/issues/3728
+
+
+------
+
+{/* <Slider
+    aria-label="custom thumb label"
+    value={SlideValue}
+    defaultValue={DefaultValue}
+    min={SlideMin}
+    max={SlideMax}
+    ref={waveSlider}
+/> */}
+
+
+
+
+
+
+

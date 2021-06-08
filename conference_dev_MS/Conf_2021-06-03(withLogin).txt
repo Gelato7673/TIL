@@ -1,0 +1,13 @@
+// User 통합로그인 만들고(사진참조) => 효정님이 보내 주셨었음
+- 구글 로그인과 비슷한 시스템
+- 어디서나 로그인을 하면, youtube에서도 쓰이고, 구글에서도 쓰이고 이런것 처럼. 다 통합되어서 연결되어있을 수 있도록 한다는 것이 우리의 계획 이다. 
+
+// 그외 만들어야 하는 페이지들
+Service page
+
+* Subscribe cochl news letter 이걸 어디에다가 놔야하나
+* 또 한가지는, 음. 밴말에 의하면, sense sdk, music swapper 이런것들이 각각 front-end 페이지 (dashboard 를 가지게 될것 같다.) 그래서, web-client에 너무 많은 힘을 쏟지 마라. (web-client의 기능이 작아질 것이다. 아마도.)
+
+* 또 하나는 sense-sdk가 어디에 묻히지 않고, 한군대로 가서 그곳으로 주고 받을 것이기 때문에 그 부분을 생각해야 한다. (official-web 등이 변할것)
+* 모든 authorization이 하나로 통합될 예정이다.                                           
+                                                                                                  

@@ -1,0 +1,50 @@
+// Tomorrow I'll do
+1. make schedule with designer 찾아보고, 정리해서 sharing하기
+
+2. Jira 사용법 / epic 등의 정의 보내드리기
+https://www.atlassian.com/agile/project-management/epics-stories-themes
+
+=> 다 되면 sharing 해드리기
+
+* 회의 후에
+- confluence 관련해서도 볼 필요가 있을듯.
+
+// Today I did
+* 오늘 동훈님 issue 만드신 부분 관련해서 sharing 하고 이야기 해보기
+* project build 하기 (모르면 물어볼것.)
+* 그리고, task 리스트업 (estimate story point)
+* epic (maintainance으로 붙이기)
+* front-end / back-end 같은 라벨링을 붙이는 것도 괜찮을지도. 
+* 다 동일한가? music swapper랑 동일하게, dashboard랑 official-web
+* user story point로 만드는 편이고, 음. 일단은 보고 계신 excel 표를 던져 달라고 해야 할듯.
+
+-------
+
+1. axis
+- 확인하고 알려주시면 하기
+- 마지막꺼, 폰트 이슈
+- 버튼 hovering button 이슈
+: 덜진한 블랙 -> 진한 블랙으로 변경
+- 반응형 left-right 마진
+https://www.beta.cochl.ai/axis/
+https://www.figma.com/file/zsGOYyV1jAKVlxsSgBmxTY/Need_to_update?node-id=0%3A1
+
+2. docs
+- 반응형
+https://docs.beta.cochl.ai/ 
+https://www.figma.com/file/e4di2OSqKAQlV3jK7Y7ePr/?node-id=762%3A0
+https://www.figma.com/file/e4di2OSqKAQlV3jK7Y7ePr/?node-id=846%3A2
+
+3. cookie setting (거기에 추가해 두기)
+- dashboard, official-web, docs
+
+4. Dashboard
+- 현재 볼 수 있는 url 관련해서 (정수님 컴퓨터에서 연결해서 했던걸로 기억이 남.)
+- 현재 볼수 있는 back-end 관련해서 (뭘 해야 되고, 요청해야 하는지를 정리한건 없음)
+- 통합로그인 (다시 디자인 들어갈 수 있음)
+- User storyboard
+
+** 지라 관련해서, 이야기 해주기
+[내일 중으로 sharing]
+
+=========================================

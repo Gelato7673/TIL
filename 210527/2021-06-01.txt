@@ -1,0 +1,45 @@
+// After To-do list
+- Music swapper project is ended. 
+- I need to make the plan to wind up this project
+
+
+// About Music Swapper
+* Todo list
+1. What kinds of things is working on front-end side (intern)
+2. I should decide what kinds of module I'll use in select page.
+3. request the video file to thomas.
+4. request soundwave data to thomas.
+
+* I have to solve these kinds of things
+- video / sound player and 
+- make sound wave from video sound
+- creating the function in sound wave
+
+* Question
+- hls.js 쓰면, 기존 비디오가 잘 나오는게 아닐까?
+: 아닌것 같다. 우선 확장자도 그렇고, 안 먹힐 것 같다.
+
+* To do list
+- video.js - wavesurfer (hls / waveform)
+- hls / data soundwave / make wave using sound
+
+* hls가 될까? 한번에 되지를 않는데.
+https://github.com/katspaugh/wavesurfer.js/issues/1078
+
+* video.js-wavesurfer / play and with sound data. 
+synce and the other things. 
+
+* video.js-wavesurfer in react 로 하자. 
+간단한, react project를 만들어서. test 해보기
+
+* 중요 !!
+https://github.com/katspaugh/wavesurfer.js/issues/1078
+
+* go lang
+waveform generator
+
+
+// Today I learned
+
+* react create app
+> npx create-react-app {app 이름}

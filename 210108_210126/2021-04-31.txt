@@ -1,0 +1,126 @@
+Today I learned
+
+* today I did
+
+In this week, I refactored my codes because of synce.
+at the first time, I just think using plugin or modify some code to combine two modules.
+but, In case of video module, sometimes delayed because of buffering. so, In my opinion, making the module to check these kinds of condition. for this. I think I need to modify middleware to control two modules. and, because It's related with other things. So, I need to refactor other codes. 
+So, I think work is some delayed. but, I expect the other part will be better than now. because code was refactored, many potential problem will be solved. so, I think nextweek, I'll work about refactoring works.
+
+=========
+
+About Reducer
+https://ko.redux.js.org/recipes/structuring-reducers/using-combinereducers/
+
+=========
+remember about redux
+
+function mapStateToProps(state) {
+    return { VideoSound: state.a };
+}
+
+export default connect(mapStateToProps)(Simple);
+
+// sample backup
+
+
+// import { configureStore } from "@reduxjs/toolkit"
+// import { combineReducers } from 'redux'
+// import userAuthReducer from './userAuth'
+// import VideoSoundReducer from './VideoSound'
+
+// const reducer = combineReducers({
+//     userAuth: userAuthReducer,
+//     VideoSound: VideoSoundReducer,
+//   })
+// const store = configureStore({
+//     reducer,
+// })
+// export default store;
+
+import { configureStore, createSlice } from "@reduxjs/toolkit"
+
+const userAuth = createSlice({
+  name: "userAuthReducer",
+  initialState: {
+    a: "false",
+  },
+  reducers: {
+      signIn: (state, action) => {state.a = action.payload}
+  }
+})
+
+export const { signIn } = userAuth.actions;
+const store = configureStore({reducer: userAuth.reducer});
+export default store;
+
+
+===========
+backup of index.js
+
+import { configureStore } from "@reduxjs/toolkit"
+import { combineReducers } from 'redux'
+import userAuthReducer from './userAuth'
+import VideoSoundReducer from './VideoSound'
+
+const reducer = combineReducers({
+    // here we will be adding reducers
+    userAuth: userAuthReducer,
+    VideoSound: VideoSoundReducer,
+  })
+const store = configureStore({
+    reducer,
+})
+export default store;
+
+=================
+
+
+Hello, Nico. I always appreciate for your lecture. 
+I have a some problem about configureStore.
+when I follow the lecture, It's working well. but, when I add one more slice and and also add additional reducer in configureStore. It just called the state value as undefineded. Do you know the reason?
+This is my code. 
+(I also tried with combineReducers as rootReducer It's not working too.)
+
+import { combineReducers, configureStore, createSlice } from "@reduxjs/toolkit"
+
+const helloSlice = createSlice({
+  name: "first",
+  initialState: {
+    person: "hello",
+  },
+  reducers: {
+    entrance: (state, action) => {state.person = action.payload}
+  }
+})
+
+const secondSlice = createSlice({
+  name: "second",
+  initialState: {
+    food: "Kimchi",
+  },
+  reducers: {
+    dinner: (state, action) => {state.food = action.payload}
+  }
+})
+
+export const { entrance } = helloSlice.actions;
+export const { dinner } = secondSlice.actions;
+
+const store = configureStore({ 
+   reducer: {
+     helloReducer: helloSlice.reducer,
+     secondReducer: secondSlice.reducer
+   }
+});
+
+export default store;
+
+=======
+
+asynce 로 한번 해주고.
+
+
+
+
+

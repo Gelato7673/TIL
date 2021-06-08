@@ -1,0 +1,11 @@
+개발일정 산정에 대해서
+
+관련글들
+https://ryanpark.dev/a66591df-be75-4b72-a7b5-40662c5263a0
+https://chodragon9.github.io/blog/estimation/
+https://peter-cho.gitbook.io/book/8/8_1
+https://hanminwoo.com/75
+
+---------------------------
+
+쉽지 않아 보이는 일들을 기록해 보자. 

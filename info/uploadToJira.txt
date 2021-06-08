@@ -1,0 +1,136 @@
+* separate button
+Cors? S3setting? Show the video (back, front) 10
+SoundWavemodule transfer to hls module 10
+User could show the analyzed section from server (back, front) 5
+User could adjust the section (back, front) 5
+User could create the section (back, front) 5
+User could delete the section (back, front) 5
+User click the discard all, all section was discard (back, front) 5
+User click the back button, user could back the action before 10 (front) 5
+User click the Separate Button (back, front, design) 10 (expected progress, if user click this button without selection, it should be blocked)
+
+------
+* addmusic button
+Show separated section at the first row (front) 3
+Show suggested soundwave at the second row (back, front) 10 (silent issue)
+User could play and pause the suggested music (front, back) 8 (making music box)
+User could change the suggested music from server (font, back) 5
+User could uploading the music from desktop to server (back, front) 10 (music change to hls)
+during uploading the music, user need to know they need to be waited (back, front, design) 5
+If user click the analyzed section, the section color was changed to white, and the data is detected from the second soundwave (back, front) 10
+If user clicked once, the color of this section is changed to purple. (front) 3 (store the section)
+If user click 'delete the section', the color is changed to original and the data is deleted. (back, front) 5
+If user click the export button, pop up the export modal (write the file name / dimension / file type.) (back, front) 5
+If user click the submit in popup, send the data to server, and comeback to project page. (back, front) 5
+
+-------
+* project page
+I guess, the video has same title is not uploaded again. (back, front) 5
+I guess, First upload has failed. (back, front) 5
+User could arrange the data (front) 5 (Alphabet, datamodified, store the state after refreshing)
+After uploading the video, Show the Progressing bar (back, front, design) 10 (make progressing bar with design and get data again)
+Checking the Exporting Page (back, front, design) 10 (make progressing bar with design and get data again)
+If user click the edit icon, the title area is changed to text mode, and user could change the title. (front) 3
+If user press enterbutton, the title is modified. (back, front) 3
+If user click the delete icon, popup the confirmation message (front) 1
+If user click the submit in modal popup, this project is deleted from server, and show the list of project from server again. (back, front) 4
+
+------
+* onboarding page
+When user scroll down, change the view (front) 0.5
+Video is played automatically, and read the main description (design, front) 5 (making new video)
+User could play the video want to play section with buttons (design, front) 5 (making new video)
+User could use the footer menu (front) 1
+User could read the description with photo 1
+User could set the coockie policy 5
+
+-------
+* temporary login page
+User could show the Login form (front) 1 
+User could login using e-mail and password (front) 0.5
+
+-------
+* Select page
+Making UI/UX mockup and user story (design) 3
+Create design and making back-end and front-end feature (design, back, front) (10)
+
+-------
+
+
+
+-------
+
+Okay. 
+I estimate our project basis on user story. 
+If this story has no special issues, I usually estimate 5 days.
+because, we need to communicate about data structure and networking and sometimes you need to modify the feature, and I'll make the new feature. 
+
+and.. If some story has some issuess as I guess, I usally estimate 10 days. 
+because, in this case, we need to think about many things. 
+and I wrote the issues on the description area on Jira backlog. you could check it. 
+
+And, I usually didn't assigned if this user story related with multiple person.
+if you check the backlog unassigned, you can notice the labels. It's the related part. 
+
+So, I think we just estimate like this. and we can make the 1~2 new sprint every week.
+at that time, maybe we can expect what kinds of user story will be planed. 
+and we can make the detail task for that. or we can adjust the plan. 
+
+(if you have a lot of work. this week I'll do user story that I can do alone
+or, if you check the nextweek, we'll deal with the some user story, you could prepare the task.)
+
+and, Finally, most important thing is.. This is a draft plan from front-end. you can fix it!
+
+-----
+
+-----
+Hello, 
+I'm sorry to contact with you in early morning. 
+I thought about the track selection, It could be possible to make to the whole video selection.
+just sharing before your working!
+
+------
+and I though about user action, when user click the Separate button, 
+Is it start to find the suggest music on the basis of chunk from server?
+
+------
+and.. I just share following things you need to consider before estimating.
+
+1. if user wanna to addmusic in silent section on video, we couldn't suggest the music because API could recommend the music basis on sound. 
+
+so, in this case, we could notice to user to upload the music. 
+
+but the problem is, if the chunk of video has small sound or noise, in this case api recommend the music. because, it's also no music case in user side. 
+
+so, we need to consider to suggest the random music playlist to user in case user select the silence section.
+
+It's not sure, Just refere to estimate schedule- . 
+
+
+
+=========================
+=========================
+
+
+
+2. yesterday, we conversation about new page, server could give the 2sound track for new page (user choose the sound from two differenct sound). 
+and you siad, server could send 1 mute video and 2 sound track to client side. right?
+if we wanna to make the module 1 mute video with several sound track, we need 3 sound track. original sound, vocal sound, accompany sound. 
+as I remember, back-end side don't need to make the original sound track before, so I just tell you about this one. 
+
+
+client-side need to get suggested music list from server to show the suggested music in addmusicpage.
+I wonder client side get all suggest music list at once, or get each suggest music list whenever user click the chunk in add music page.
+
+
+I think user need to wait some time before Api search the music and send the list. isn't it?
+
+한번에 분석되어서, 
+
+---
+
+
+
+
+
+

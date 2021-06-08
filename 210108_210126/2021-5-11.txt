@@ -1,0 +1,30 @@
+TIL
+
+1. [Separate] Switching the sound during the playing
+2. check chunk data
+3. the other process with temporary data.
+
+------------
+
+** 이슈!
+
+Change the sound during playback MS-132
+- Add function about changing the sound(original audio -> background removed audio) during playback.
+- fixing bug about paintWave function (this function is used to paint the color on soundwave after adjusting the current time.)
+- modify some module names.
+
+media docs
+https://developer.mozilla.org/ko/docs/Web/API/HTMLMediaElement
+
+videojs docs
+https://docs.videojs.com/docs/api/duration-display.html
+https://docs.videojs.com/docs/api/player.html
+
+------------
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+*** TID (Today I did)
+- 한번 당기고 만들어 보기(그냥 보는정도) / May26
+- Bug Fixing에 관한내용을 전달할 수 있도록 하자. 
+
+
+*** Today's reddit
+- Today's reddit conts
+
+
+*** TIL (Today I learned)
+
+- video Loading problem
+
+
+- Memo
+- (될듯. pages에다가 넣으면 되는듯.) / Link 라던가, 그런걸로 만들기
+- 전체 일정 어제보던거 마저 보기 (붙여넣기하고, 대충 시간 걸리는거 잡아보기)
+- reduce 할 수 있는 부분들은 reduce 해서 보기
+- 어떤것 부터 해야하는지에 관해서 생각해 보기
+- async를 해야하는지. 어떤지.
+- 다 끝났는지 물어보고, 다 끝났으면, 어떤것 부터 해야하는지
+- 우선순위 분배를 해보고, 우선순위에 따라서 할것. 
+- 비디오 안나오는 것좀 어떻게 해서 넘기자.
+
+
+
+*** the other work
+- 안경집 들르기

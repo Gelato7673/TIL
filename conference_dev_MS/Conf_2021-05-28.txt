@@ -1,0 +1,33 @@
+// In this week.
+- I estiamted the work about music swapper, and made the schedule. 
+- and music swapper team has the meeting about new added page. 
+- and, next week, I'll work again about music swapper I guess. 
+
+--------
+// Music swapper sharing
+
+1. I estimated the schedule basis on user story point. 
+
+2. when I make this schedule, I consider checking data base, and request the modification, and hed modify the feature, and I make the feature again. and. some kinds of user story need help from designer. like progress or new pages. 
+In case of new design feature, we'll have conversation together. 
+I consider these kinds of things. 
+
+3. I think we'll use Jira like this. 
+I'll update the nex week and Two weeks later work update, every week. 
+so, we could prepare or think the task. 
+or, if yours has a lot of the other work. or yours waana to do the other work as flow, just sharing with me in meeting. 
+so, I'll change the schedule. 
+
+5. so, I think next week, I'll solve the sound problem, and hyojeong make mock up and user story board. 
+actually, I think mock-up and user story board should make together. 
+
+If Ui/Ux team make this one, It's easier that front-end, back-end ready the new feature. 
+I know it's the first time. but, I think this single page is the good example to start this work. 
+because, It's small and simple. 
+
+6. so, we have some issue about silent video and chunk, and uploading music module from user desktop.
+
+you can do that. or you can request to new designer. It's your free. 
+anyway, anything is fine. I just think this is the good start point to experience the process.
+
+

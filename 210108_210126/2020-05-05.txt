@@ -1,0 +1,26 @@
+addEvetnListener에서 인수 넘겨주기
+https://kimtaekju-study.tistory.com/135
+
+
+notinclude
+https://www.codegrepper.com/code-examples/typescript/javascript+array+not+includes
+https://stackoverflow.com/questions/48592791/javascript-arrays-opposite-of-includes
+
+setTimeout
+https://developer.mozilla.org/ko/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout
+
+EventTarget
+https://developer.mozilla.org/ko/docs/Web/API/EventTarget/addEventListener
+
+setInterval
+https://developer.mozilla.org/ko/docs/Learn/JavaScript/Asynchronous/Timeouts_and_intervals
+
+Immediately start
+http://daplus.net/javascript-setinterval-%ED%95%A8%EC%88%98%EB%A5%BC-%EC%B2%98%EC%9D%8C-%EC%A7%80%EC%97%B0%EC%97%86%EC%9D%B4-%EC%8B%A4%ED%96%89/
+
+getAttribute
+https://developer.mozilla.org/en-US/docs/Web/API/Attr
+
+parseInt
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseInt
+https://recoveryman.tistory.com/44

@@ -1,0 +1,19 @@
+// Dev sharing
+- many meetings and music swapper is ended
+- revise the axis pages
+
+
+// Music swapper sharing
+1. and we found the issue about silent video or section
+- the first issue is when user upload the video, It makes the error. 
+- the second thing is when user select the silent chunk in separate page, we couldn't recommend the music.
+so, in this case, we could notice to user to upload the music. but, we're not making this feature, 
+and the other problem is, if the chunk of video has small sound or noise, in this case api recommend the music. because, it's also no music case in user side. 
+so, we need to consider to suggest the random music playlist to user in case user select the silence section.
+
+2. uploading issue.
+- I'll discuss about this problem (about uploading sound) with designer and Jeongso.
+
+
+3. rename issue.. is..
+- um...

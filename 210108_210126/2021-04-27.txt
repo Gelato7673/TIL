@@ -1,0 +1,74 @@
+
+- 마우스 이벤트 순서
+https://ko.javascript.info/mouse-events-basics
+
+- 상위 이벤트 하위영역에서 막기
+https://stackoverflow.com/questions/1755815/disable-all-click-events-on-page-javascript/48035251
+
+- mozilla animation 게임 개발하기 (되게 재미있어 보임?!)
+https://developer.mozilla.org/ko/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up
+
+- useEffect with hook
+https://stackoverflow.com/questions/55075604/react-hooks-useeffect-only-on-update
+https://dev.to/savagepixie/how-to-mimic-componentdidupdate-with-react-hooks-3j8c
+
+- useSelector, useDispatch
+https://react.vlpt.us/redux/09-connect.html
+https://velog.io/@hwang-eunji/%EB%A6%AC%EB%8D%95%EC%8A%A4%EB%A6%AC%EC%95%A1%ED%8A%B8-Redux-with-React-8-useSelector-useDispatch-hooks
+
+- redux
+https://www.softkraft.co/how-to-setup-redux-with-redux-toolkit/
+https://lannstark.tistory.com/128
+[내용정리]
+https://velog.io/@yhe228/react%EC%97%90%EC%84%9C-typescript-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
+
+- 기타내용들
+https://velog.io/@secho/React-12-UseSelector-useEffect-useReducer-useCallback
+
+- 리덕스 올바르게 사용하기. 가이드
+https://baeharam.netlify.app/posts/architecture/%EB%B2%88%EC%97%AD-%EB%A6%AC%EB%8D%95%EC%8A%A4-%EC%8A%A4%ED%83%80%EC%9D%BC-%EA%B0%80%EC%9D%B4%EB%93%9C
+
+- undefined 에러
+https://github.com/reduxjs/redux/issues/2578
+
+
+*** 짱중요한 redux 문서
+- https://www.softkraft.co/how-to-setup-slices-with-redux-toolkit/
+- https://www.softkraft.co/how-to-setup-redux-with-redux-toolkit/
+
+opensource 다루기.
+redux 다루기.
+
+----------
+
+sample of redux
+import React, { useEffect, useState } from "react";
+import { connect } from "react-redux";
+import { entrance } from "../../../store";
+
+const Simple = ({Greeting, ChangeGreeting}) => {
+    useEffect(()=> {
+        ChangeGreeting("Goodmorning");
+    },[])
+
+    return (
+        <>
+            <h1 style={{marginTop:'50px'}}>Hello, World. It's just a test</h1>
+            <p>{Greeting}</p>
+        </>
+    );
+}
+
+function mapStateToProps(state) {
+    return { Greeting: state.helloReducer.person };
+}
+
+export const actionDispatchToProps = (dispatch) => {
+    return {
+        ChangeGreeting : (a) => dispatch(entrance(a))
+    }
+}
+
+export default connect(mapStateToProps, actionDispatchToProps)(Simple);
+
+export default Simple;

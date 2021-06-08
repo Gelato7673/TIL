@@ -1,0 +1,60 @@
+// 이번주에 해야할일
+
+1. 블로그에 그동안 공부한 내용들 정리해서 올려두기 (금요일 전까지)
+
+2. 알리 익스프레스 배송추적하기 (오늘가면서하기) / 2L짜리 물병하나 사기
+
+3. 매일 일기쓰기, 가면서 기사 읽기
+
+----
+* 일에 관한 부분. 
+- Zoom이랑 play 되는 부분은 되는 걸로 해서 일단, 올리고, request받기
+- toggle 까지 그냥 만드는 것도 괜찮을 듯.(모양만 만드는 부분이니까.)
+- thumbnail만든 부분 반영해 주기
+------------------------------------
+
+- 보여주는 부분 backlog로 내용 통신
+- toggle original and toggle sounds
+- 싱크까지 보이는 부분 다 맞추고
+- 인코딩 문제 해결해 보고, 안되면 셋팅관련해서 물어보기
+- 기존에 해둔 부분 적용하기 (thumnail이라던가)
+- 몇 초 있다가 project가 뜨는 부분 어떻게 처리할 것인지 상의하기
+- 다음 페이지 보이는 부분, view page 만들기
+
+------
+0. 인코딩 문제를 해결하기
+1. session문제 다시 이야기해서 처리하기
+1. project만들고 나서 잠깐 시간 필요한 부분 처리하기
+2. 데이터 가져오기
+3. float으로 만든 부분 데이터로 처리하기
+4. realtime으로 데이터 통신 처리하기
+-------
+
+5. 추천 sound data랑 모두 가져오기
+
+Project - [Project] apply thumbnail
+Project - [Networking] Video Encoding
+Project - [Networking] Session authorization
+Project - [Networking] Check the project generation from server
+Project - [Networking] get the analyzed data from server
+Project - [Networking] realtime communication according to user action
+Project - [Networking] get the original sound / background removed sound
+Project - [Networking] when clicking seperate button, upload the data
+Project - [Networking] when clicking exporting button, upload the data
+
+============
+
+This is about the toggle module
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch
+
+Just using this kinds of module.
+https://dev.to/jamland/audio-player-with-wavesurfer-js-react-1g3b
+
+-------------
+
+
+
+
+
+
+

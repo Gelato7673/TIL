@@ -1,0 +1,99 @@
+Today I learned
+
+* hot-topic.
+video.js로 변경하고 sync를 맞출 것. 
+
+sound wave 의 보이는 옵션들이 모두 적용되도록 하는 문제. (적어도 region은 적용이되어야 할 것 같은데.?)
+
+* Video.js option 들 (video.js가 여러개인듯.)
+http://gkatsev.github.io/video.js/docs/api/tutorials/options.html#width
+
+* vidoe.js current time 가져오기 (다른버전)
+https://docs.videojs.com/docs/api/player.html#MethodscurrentTime
+
+=> 같은건데 버전이 조금 다른듯.
+
+* plug In
+https://wavesurfer-js.org/doc/typedef/index.html#static-typedef-TimelinePluginParams
+-------------
+
+//video
+// import videojs from '@videojs/http-streaming'
+
+<video id="test_video_1" className="video-js vjs-default-skin" controls preload="auto" width="640" >
+  <source src="https://cochl-video-upload-test.s3.ap-northeast-2.amazonaws.com/test/hls/upload/9x6rqa7ql1kybv7i.m3u8" type="application/x-mpegURL" />
+  <p className="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+</video>
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------
+
+WaveSurfer.regions.create({
+	                regions: [
+	                    {
+	                        start: 0,
+	                        end: 5,
+	                        color: 'hsla(400, 100%, 30%, 0.1)'
+	                    },
+	                    {
+	                        start: 10,
+	                        end: 20,
+	                        color: 'hsla(200, 50%, 70%, 0.1)'
+	                    }
+	                ]
+	            }),
+
+
+
+
+
+---------
+
+responsible 과 관련된 문제는?
+
+
+
+
+
+---------
+
+About CDN
+https://ibks-platform.tistory.com/397
+
+---------
+
+npm으로 작동시켜보고,
+width height 적용시켜 보자. 
+
+----------
+
+video.js 사용법
+responsnible. 하도록. 
+
+----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

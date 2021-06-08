@@ -1,0 +1,94 @@
+*** TID (Today I did)
+- 일정산정 (2.5소요 예상)
+
+
+*** Today's reddit
+- 오늘의 reddit 내용
+
+
+*** TIL (Today I learned)
+
+=> 토마스가 물어본 내용// 마저 확인해 주면 좋겠다. (예외)
+
+------
+일정산정에 대해서
+
+기획분석, 설계, 작업세분화, 일정산출, 
+리뷰(읽기), 개발, 테스트, 디버깅
+
+------
+- Design : Searching the reference
+- Design : Conversation with design
+- Design : Making new feature
+- Design : Reviewing the feature
+- Back: Checking the back-end source
+- Back: test the back-end source (networking)
+- Back: debugging the back-end source
+- Back: (conversation) => 정체 예상 구간
+- Front: Checking the function / Designing the function
+- Front: Refere to the other one's source code => 정체 예상구간
+- Front: Making the code (Function)
+- Front: Styling the Code (transition / animation)
+- Front: debugging the code => 정체 예상구간
+- Front: refactoring the code => 정체 예상구간
+- Front: reviewing the code
+
+=> 문제가 터진다면 정체구간의 반복. 
+
+각, 구간에 대해서, 앞으로 만들 feature에 대해서 예상을 해보고, 문제가 생길 것 같은 부분들을 집어 내 보는것이 중요할 것 같다 .
+Epic  / Stroy / Feature / task / bug
+
+========
+
+Reviewing back-end data
+Review (How to make the function)
+Get Projectlist from localStorage
+make the function
+check the bug
+review
+Fix the bug
+
+========
+
+Step by Step 으로 진행을 합시당.
+
+========
+
+Add New Contents	O / but Bug	
+	Checking the network	Reviewing back-end data
+		How to connect with data
+		Interval (checking the progressing)
+	Visualization	reviewing the reference code
+		make the visualization
+	Create the Project	Checking the network
+		Getting the information
+		Making the Project
+		Bug Checking
+	Checking the network	Reviewing back-end data
+		How to connect with data
+	making form	Change to Form tag
+		Submit the data
+		Reload the data
+		Error check / Bug Fix
+	Checking the network	Reviewing back-end data (error check)
+		How to connect with data
+		Add Event
+		Refreshing project information from network
+	Checking the network	Checking Interval networking
+		If) processing => href = block
+		else) stop => href = separate
+		video 링크랑, soundata를 가져와서 넘겨줘 놔야 한다. 
+		error check
+
+--------
+
+Reviewing back-end data
+Review (How to make the function)
+Get Projectlist from localStorage
+make the function
+check the bug
+review
+Fix the bug
+
+========
+

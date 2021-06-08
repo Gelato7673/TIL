@@ -1,0 +1,2 @@
+* about Key Value
+https://stackoverflow.com/questions/46469769/aws-cloudfront-returning-missing-key-pair-id-query-parameter-or-cookie-value

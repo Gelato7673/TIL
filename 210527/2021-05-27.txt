@@ -1,0 +1,32 @@
+// Today I did
+estimate the schedule about Music swapper.
+
+- think and imagin development step basis on the excel. 
+- make the chunk basis on user story and estimate the each of chunk following guideLine.
+	- Design : Searching the reference
+	- Design : Conversation with design
+	- Design : Making new feature
+	- Design : Reviewing the feature
+	- Back: Checking the back-end source
+	- Back: test the back-end source (networking)
+	- Back: debugging the back-end source
+	- Back: (conversation) => 정체 예상 구간
+	- Front: Checking the function / Designing the function
+	- Front: Refere to the other one's source code => 정체 예상구간
+	- Front: Making the code (Function)
+	- Front: Styling the Code (transition / animation)
+	- Front: debugging the code => 정체 예상구간
+	- Front: refactoring the code => 정체 예상구간
+	- Front: reviewing the code
+
+- check the estimated day in this files (info / uploadToJira.txt)
+
+- and explain about this schedule to Tomas and adjust the Road map he could understand the overview
+
+
+// Today I learned
+- just estimate basis on myexcel.
+- I've got we need to make user story from UI/UX team because It's important to estimate the plan
+- and.. It need so manytime. but I've learned many things. and I'll write about it.
+
+	

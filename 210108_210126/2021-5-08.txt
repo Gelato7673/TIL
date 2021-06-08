@@ -1,0 +1,27 @@
+TIL
+
+react Submit
+https://ko.reactjs.org/docs/forms.html
+
+redux refresh
+https://bestalign.github.io/2015/10/27/redux-hot-reloading-and-time-travel-debugging/
+
+모듈로 설치하는 것도 있는듯.(핫로더, 근데 async에서 에러가 나면..좀 그런데..)
+https://backend-intro.vlpt.us/5/02.html
+
+redux middle wear
+https://velopert.com/3401
+
+** 핫 리로딩과 핫 로더는 다르다.
+https://velog.io/@maliethy/Redux%EC%99%80-hot-reloading
+
+https://stackoverflow.com/questions/34655695/redux-how-to-keep-the-reducer-state-during-hot-reload
+
+redux middlewear hot reload module
+https://www.youtube.com/watch?v=aXG1CRVnDdM
+https://github.com/reduxjs/redux/issues/1864
+https://ibrahimovic.tistory.com/47
+https://www.oreilly.com/library/view/learning-redux/9781786462398/1d4e0bb6-0e40-4009-91b3-d64fb6b21328.xhtml
+
+react와 middleWear
+https://velog.io/@cyongchoi/Redux-MiddleWare-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0

@@ -1,0 +1,374 @@
+Video Js Hook
+https://www.npmjs.com/package/react-videojs-hook
+https://www.npmjs.com/package/video.js
+
+———————————
+
+1. 일단, 나오게 하고, waveform 만들어서 보여주는 걸로 하자. 
+Videos react js
+
+
+2. Video js 로 교체하고, 다 잘 나오나 보고, 사이즈 조절하기
+https://videojs.com/plugins/
+
+3. Jira에 올려두고, 성의껏 설명한다. 
+(문제가 될 부분들을 성의껏 설명해야 한다.)
+- 참조하고, 잘 산정해서 하는게 중요할듯. 
+
+———————————
+
+이번주에 할일. 그리고, 다음주에 할일 산정해 보기 (about adjusting pages)
+* abiltiy about estimating and describing is important.
+
+*ref
+This is the current documentation.
+
+How can I load the audio?
+
+    
+    // var wavesurfer = WaveSurfer.create({
+    //     container: waveformRef.current
+    // })
+    // wavesurfer.load('https://www.mfiles.co.uk/mp3-downloads/franz-schubert-standchen-serenade.mp3');
+
+    // useEffect (()=> {
+    //   WaveSurfer.create({
+    //     container: wavesurfer.current
+    //   });
+    //   wavesurfer.current.load('https://www.mfiles.co.uk/mp3-downloads/franz-schubert-standchen-serenade.mp3');
+    // }, []);
+
+
+
+
+
+———————————
+authorization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------
+6. find the react module like swr (user action responsible action)
+7. redux-saga (attached other middle ware to process the asynchronous processing model)
+
+https://scand.com/company/blog/front-end-development-steps/
+
+Prototype. 
+
+https://www.atlassian.com/agile/design
+https://uxstudioteam.com/ux-blog/agile-design-process/
+
+———————————
+** 중요하는 거는. Drop files
+——
+
+모달을 하나 해보고, 그러고 나서, status랑 달아본다. 
+
+——————
+https://blog.naver.com/mnstarr/222305649841
+
+통영
+
+——————
+
+X 랑, 버튼
+넘어가 두기는 해야 할 것 같은데 말이야…ㅋㅋㅋ
+
+
+GitHub build 파일 없애고.
+
+
+————
+폰트 경량화에 대해서
+
+——
+Set-coockie에 관해서. 
+다른 전송들에 관해서
+———
+지금 뮤직 스와퍼에 가면, 쿠키를 볼 수 있는 건가?
+으음.. 
+document.coockie
+
+————
+
+쿠키
+https://ko.javascript.info/cookie
+
+Samesite = Lax
+https://www.hahwul.com/2020/01/18/samesite-lax/#section_5
+
+Set-cookie에 관해서.
+
+———
+
+** 엄청중요한거. 모달로 달아줘야함. Material-ui customizing 해서. 
+
+
+
+The other models. Like 
+
+
+string에다가 태그 넣는법. 찾아보기
+Puppy 커스터 마이징을 한다는 것
+
+
+About the read me. 
+
+—
+노드모듈 update
+https://medium.com/engineering-housing/reloading-your-node-modules-on-change-5f5152dc5084
+
+——
+Yarn build 를 하고,
+Yarn start 를 하는건가.?
+library가 덮어씀. library를 고쳐야함. 기억하자. 
+
+———————————
+
+DragDrop 같으면 좋겠다.
+
+
+——
+
+
+
+
+제일 쉬운거는 button이랑 똑같이 하는거지
+
+원리를 아는게 더 중요해. 찾아보구.
+
+——
+import '@uppy/core/dist/style.css'
+import '@uppy/dashboard/dist/style.css'
+
+설치한 모듈들 중에 불필요한 것 삭제하는 법도 알아둬야 할듯.
+만들어서 올리는 법이랑.
+
+하나씩 따라가면서, 빼놓지 않고 만들면 되지 않을까?
+
+
+
+——
+
+버튼, 아이콘
+
+———
+* 6 o’clock에 talk
+* 체력이되실런..? 존경..
+
+
+————
+
+ascho@cochlear.ai
+
+
+
+
+
+———
+일단, seperate에다가 만들고,
+나중에 components로 분할한다!
+그리고, yarn clean up을 하는 방법을 찾아본다. !
+
+——
+    // "@uppy/core": "^1.16.2",
+    // "@uppy/dashboard": "^1.17.1",
+    // "@uppy/drag-drop": "^1.4.26",
+    // "@uppy/file-input": "^1.4.24",
+    // "@uppy/react": "^1.11.5",
+    // "@uppy/tus": "^1.8.6",
+    // "@uppy/xhr-upload": "^1.7.1",
+
+———————
+
+where is the element style
+presentation
+
+height: 110px;
+
+npm으로 쏘고, 적용까지 하고 가야해.
+——————————
+
+proudlyDisplayPoweredByUppy={false}
+      disablePageScrollWhenModalOpen={false}
+
+
+
+———————
+
+
+원래 uppy를 가지고, 계속 update version을 만드는 방법을 생각해 보자. 
+
+
+
+
+Customizing
+Check the modules option (like delete the buttons)
+Customizing about upload
+
+{autoProceed: true, closeAfterFinish: true, showProgressDetails: true}
+
+disableThumbnailGenerator : true
+We need to publishing nom modules.
+
+———————
+proudlyDisplayPoweredByUppy: true
+
+
+The issues about the uppy
+
+
+ProudlyDisplayPoweredByUppy: false
+
+      closeAfterFinish: true, 
+      showProgressDetails: true, 
+
+Just copy style files from the other one.
+
+——
+How about to use dashboard only
+
+
+———
+Except the modal. Just try the other ones
+
+
+
+
+——
+
+applying은 왜 건너뛰어? 할 수 있으니까. 
+
+————
+
+
+MaxFileSize
+
+
+————
+
+<Dashboard uppy={uppy} open={modalOpen} closeModalOnClickOutside onRequestClose={handleClose} className="uppy-select-files"/>
+
+Add projects
+
+ onClick={handleOpen}
+
+
+  const [modalOpen,setmodalOpen] = useState(false)
+  const handleOpen = async() => {
+    await setmodalOpen(true);
+  }
+  const handleClose = () => {
+    setmodalOpen(false);
+  }
+
+
+    uppy.use(Dashboard, {
+      id: 'Dashboard',
+      target: 'body',
+      trigger: '.uppy-select-files',
+      inline: false,
+      width: 750,
+      height: 550
+    })
+
+
+
+
+———————
+
+- Null as done button
+doneButtonHandler: () => {
+  this.uppy.reset()
+  this.requestCloseModal()
+}
+
+———
+I didn’t know it will be working. 
+But, I believe It will be solved by…
+
+
+Just one files.
+
+
+Not about the add more / 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Customized model. 
+And handle about state about it.
+
+
+—————
+
+** wave surfer 원형을 봐야 되나. 
+일단은 되게 해야 한다. 
+yarn으로 봐야 하나?
+
+일단은, wavesurfure를 어떻게 접목시킬지를 찾아야 한다. 
+그래야, 그 다음 작업을 들어갈 수 있다. 
+
+1. Loading the sound wave
+2. Detected color.
+3. Double click? Or click you can just play this part.
+
+** about the configuration
+
+——————
+
+1. Nope
+2. About module
+3. Style sheet.
+
+——
+Amazon에 저장소 하나 만들어야 할듯.
+
+——————
+
+*** Finding the module about the wave
+
+
+———
+가장 마지막 껄로 해서 써보면 좋을 것 같다. (보이는 부분만 좀 잡아주자. )
+일정도 이야기하고 싶다며..? 여튼해보자.
+문제는, 어떤것들이있는지 써보고, 
+글자크기만 잡아주자. 
+
+
+——
+Set-cookie
+https://www.hahwul.com/2020/01/18/samesite-lax/#section_5
+https://ifuwanna.tistory.com/223
+https://www.hahwul.com/2020/01/18/samesite-lax/#section_5

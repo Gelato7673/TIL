@@ -1,0 +1,113 @@
+About the id
+Can I change the time set?
+
+Id :1,
+“data” : [
+{
+	begin: 10,
+	end: 20,
+	volume : 1
+},
+{
+	begin: 10,
+	end: 20,
+	volume : 1
+},
+{
+	begin: 10,
+	end: 20,
+	volume : 1
+},
+{
+	begin: 10,
+	end: 20,
+	volume : 1
+}
+]
+
+array to 10
+after checking the point will be changed to the internet. 
+we need to think about the asynchronization.
+
+------
+
+0-0. net ) downloading the data (not empty)
+0-1. net ) downloading the data (empty background)
+
+1. net ) downloading the data. first => set) state
+2. showing the detected the sound data using the state. 
+3. if the event will be happen like a drag => set) state => net ) change the server data
+4. if the delete event will be happen => set) state as null or zero => net ) change the server data
+5. when click export => set ) null data will be deleted from the stat => net ) change the server data
+
+----------------
+
+1. We will make the first one. ()
+
+we can make the module using javascript (as a form)
+- making wave form
+- detect the section 
+- playing the music
+- zoom in & out
+
+----------------
+
+막대기 동기화는 도대체 어떻게 해야되냐. (나중에 생각해 보자)
+
+
+
+=======
+
+4. click export => going to the next step
+5. 
+
+======
+
+configuration
+
+
+--------------------
+About the tool
+http://localhost:8080/example/annotation/
+
+tow? http://localhost:8080/example/split-channels/
+
+video? http://localhost:8080/example/video-element/
+
+cursor? http://localhost:8080/example/cursor/
+
+plugin system? http://localhost:8080/example/plugin-system/?fill
+
+split wave? http://localhost:8080/example/split-wave-point-plot/
+
+Zooming Feture Example? http://localhost:8080/example/zoom/
+
+htmlInitialized http://localhost:8080/example/html-init/
+
+It's about the region http://localhost:8080/example/regions/
+
+It's about the change sounds http://localhost:8080/example/stretcher/
+
+** Video Annotation System http://localhost:8080/example/video-annotation/
+
+
+---------
+
+1. customizing UI (about uploading modules) - configure lation 
+
+2. sound wave like a ...
+1) video sound module
+2) adding the other sounds to there. (and after change this one)
+   -> refer to 75% modules.
+3) zoom model to adjusting sound model.
+4) playing the music and repeat the section. 
+(as the double click / 어떤걸로 분리를 할지...)
+
+----------
+
+
+
+
+
+
+

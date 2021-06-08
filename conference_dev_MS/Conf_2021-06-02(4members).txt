@@ -1,0 +1,85 @@
+// task dev meeting
+
+* front-end task 관련해서 정리해서 드릴것. (Domain 별로 만들고, epic으로 관리 할것.)
+
+[1~2주]
+1. Bug Fix list 만들도록 요청드리고, 함께 볼 것. [epic]
+=> Bug Fix에 대한 일들을 파악하고 list up을 같이 해볼 것. 
+=> 이걸 어디까지로 할지 생각해 볼 것. (예상기간) / 2주~3주
+=> ** 반응형 이슈
+=> 동시에 해야할일 : 나머지 일들을 list up 해서 끝내기
+
+[2~4주]
+2. dashboard를 혼자 들어가게 할 것인지, 아니면 같이 들어가게 할 것인지?
+=> dashboard 3.0 으로 같이 가면 될듯.
+
+* Front-end Task List up
+- Axis 등, 남은일들 list up 할 것. 
+
+[기억할 부분]
+- docs 같은거를 해야한다. 
+- Hugo
+- documentation 쪽으로 나갔으면 좋겠다. 
+- website 이슈 : 정리를 가고 싶은 부분이 있습니다.
+- API 이슈
+- 모바일 이슈: font-issue
+- refactoring
+
+* Confluence
+- cicd 방법 적어두고 / aws관련된것 적어두고 / 모를때 comment 등을 적어두자. 
+- 관련해서 알아두기 (wiki)
+
+===========================
+[기타 이슈들. 받아적은 내용들]
+
+1. Jira list up (Back log) [Dashboard 유지보수, official-web 유지보수 // managing]
+- Front-end 다들 어떻게 쓰는지에 (Jira) 관한 부분 / project간에 낭비가 된다는것 (서로 영향을 미치는 부분에 대해서.)
+- epic을 만들어서. (sprint)
+
+2. task (bug fixing 를 주려고 하는거지)
+- Dashboard 를 주는 것 같은 것을 : 어디로 가야 할 것인지?
+- 노들 front-end로 분배를 해야하는지?? //axis 를 해야한다. 
+
+3. 동훈님쪽을 드려야 할지. 
+- bug fix 랑 그런 부분이 있으시다고 하면은, 
+- dashboard / 효정
+- bug fixing
+- Dashboard // 버전 업을 하면서 가는 부분이어서
+- 다시 보고 가야 할 수도 있다. (quick fix 하는 부분으로 가는것도.)
+- 8월 말, Ben이 지금 하는 부분?
+- Axis 페이지를 올려야 한다. 
+- 무슨일을 하고 있는지?? (Axis 페이지, 닥스쪽을 고쳐주고 있다가) 
+- user management : 백엔드 바꾸는 쪽에서 support 하는쪽으로 했다. 
+- excution 을 하는 부분에 대해서. 
+- 디자인 / bug fixing 하는 부분 
+
+
+===========================
+** chat에서 던져주는 것을 끊기는 것이 목적이 더 좋다. 
+
+// confluence 
+- onBoarding 같은걸로 많이 한다.
+- 프로젝트의 타입마다 조금씩 다른부분.  (long term 프로젝트 일때)
+- short term 프로젝트 일때.
+- confluenc / cicd 방법 적어두고 / aws관련된것 적어두고 / 모를때 comment 적어두는 방법 /
+- 문서 같은걸 많이 쓰는 wiki 같은 역할. 
+- 뭔가, 하나의 무엇인가를 올리기 전에 검증하는 프로세스가 중요할 수 있다. 
+- (Final quality)
+
+- QA 검증 과 communication의 문제
+- 디자인 같은것도, 그냥 완성도의 문제가 있을 수 있다. // 검증 문제에 관한 부분.
+- 한번더 revision해서, 여유 기간을 두면 좋을 것 같다. ?!
+- tag 다는 법? / under review : Confluence / 
+- 문제에 대한 부분을, tool을 쓰는게 좋을 것 같다. 
+- 초반, 끝에 몰아 놓는 것이 좋다. 
+
+
+** pm을 해야하고 
+- pm이 있어야 한다. 
+- decision을 하고 가야 하는 부분에 대해서는
+  : 디자인 팀에서, 의견 fix를 하고, 
+  : 백엔드랑 의견을 정하는 부분 관련해서도. 그렇게 하는 부분이 있었으면 좋겠다. 
+
+
+
+

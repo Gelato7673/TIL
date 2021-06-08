@@ -1,0 +1,61 @@
+drag and drop이 이렇게 쉽다니. 
+(간단히 밥만 좀 먹고 와도 좋겠다. 아니면, 빵을 사오거나.)
+https://aroundck.tistory.com/941
+
+Uppy is awesome !!
+
+[Uppy React]
+https://uppy.io/docs/react
+https://uppy.io/docs/react/dashboard/#CSS
+https://uppy.io/docs/react/dashboard-modal/
+
+[Uppy Dashboard]
+https://uppy.io/docs/dashboard/#inline-false
+https://uppy.io/examples/dashboard/
+
+* 기억해. react dashboard는 이렇게 해야함
+https://github.com/transloadit/uppy/issues/2642
+
+Dashboard로 해서 webcam을 쓰거나.. 해야함. 
+inline을 따로 binding해서
+
+* publishing with github
+https://docs.github.com/en/packages/guides/configuring-npm-for-use-with-github-packages
+
+* npm 모듈 수정에 대한 나의 견해
+스타일은 스타일 시트를 덧대서 하고
+안되는건 js로 커스텀 하자. 피할 수 있는 길을 찾아서
+서드파티 모듈은 건드리지 말자. ^^ 그 안에서 계속 참조한다 ^^^^^^^^ 
+아니면 다 찾아서 바꿔 주면 되려나? ㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+(가급적 원래모듈은 npm으로 다시 퍼블리싱하는건 그리 좋은 방법은 아닌것 같다.)
+
+그래도 혹시 몰라서 다시 퍼블리싱 하는 방법을 붙여 두기는 한번 한다만..
+https://zellwk.com/blog/publish-to-npm/
+
+
+========================
+
+<DashboardModal uppy={uppy} open={modalOpen} closeModalOnClickOutside onRequestClose={handleClose}/>
+
+
+ onClick={handleOpen}
+
+   const [modalOpen,setmodalOpen] = useState(false)
+  const handleOpen = async() => {
+    await setmodalOpen(true);
+  }
+  const handleClose = () => {
+    setmodalOpen(false);
+  }
+
+
+
+  <Dashboard uppy={uppy} width={641} height={179} theme='dark'/>
+
+
+
+  dashboard로 다시 진행해 보자. 이게 훨씬 나을듯. 
+
+  제대로 다운 받았나 몰라. (server is not working..)
+
+
