@@ -1,0 +1,17 @@
+The goal of this article is sharing the condition of code in music swapper projects' front-end side. 
+
+open source
+- wave surfer
+- video.js 7 (hls option included)
+- video.js-wavesurfer (further changed)
+
+The code is mixed tsx and js, it quite complexed. 
+but when I found the tsx module about wave-surfer and video-js, I couldn't found suitable module in tsx. 
+
+but, if we found after time, we need to transform js to tsx.
+
+and, now font-end code just use the temporary url about video and sounds data because, the url from server has cors problem.
+
+we need to think about solve this problem, and change code to get data from server.
+
+The last version of this project is stored in separate branch. 

@@ -1,0 +1,13 @@
+Sound wave
+
+Eventhough, we choose the fourth of the front article in our process, It's still remained the issues about soundwave.
+
+this issue was happened because hls just send the data as chunk, front-end side couldn't make sound wave form at once. 
+
+so, if we use the hls reamin, the make the sound wave data from back-end and send the front-end side and font-end make it visualization.
+
+I didn't find clear module about it, but quite deserve careful study, if we choose the option 4 about our process. 
+
+as I know, many other language already has the module to make sound wave data. like following link.
+
+before starting again, let's talk about it!

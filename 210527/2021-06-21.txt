@@ -1,0 +1,20 @@
+// Today I learned
+- 특정 브런치에 commit 하기
+https://info-lab.tistory.com/60
+
+
+// Today I did
+* 다시 해본다면?
+- 데이터를 가져올 수 있는 가상 서버를 가지고 일단 루틴을 모두 만들어 둔다. 
+- 거기에서, 특정부분을 가져오는. 문제가 되는 부분만을 가지고, 바꿔가면서 만들어 본다. 
+- [Tus라던지,]
+- HLS 라던지, 어차피 이런부분이 이미 문제인데.
+
+
+
+[아마존 교육]
+https://aws.amazon.com/ko/training/intro-to-aws-labs-sm/
+* 프리티어.. 를 쓸 것인가?!
+https://aws.amazon.com/s3/?did=ft_card&trk=ft_card
+
+- Dashboard 로그인 관련 모듈

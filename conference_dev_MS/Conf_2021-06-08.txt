@@ -17,3 +17,23 @@ so, we need to consider to suggest the random music playlist to user in case use
 
 3. rename issue.. is..
 - um...
+
+
+// last meeting
+um.. actually, there are some issues that I didn’t share with you.
+
+When I tested the other the sound & video play module, It’s possible to play hls sound on the browser. (video from insomnia url is not played yet.)
+But the problem was synchronization (video & sound)  and making sound waves.
+
+1. sync
+If we use the hls streaming both of the sides like video and sound, the front-end side couldn’t sync both of them. Because two of them are unstable in streaming.
+So, we have to get two videos (original sound and user selected sound in the select page) and play at once I guess.
+
+2. Sound waves
+When we use the hls streaming, It just gets a chunk from the server.
+So, It’s not easy to make the sound wave at once on the front-end side (because, client side doesn't know the full data). 
+So, maybe, I should request the sound wave to the back-end in hls sound situation.
+And I also have to test showing the sound wave in the new module. I guess It’s possible.
+
+So, I think this is a quite big chunk. 
+I think It’s better to make documentation about the remaining issue rather than developing these kinds of things… What do you think about it?

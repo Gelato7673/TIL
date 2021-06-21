@@ -1,0 +1,114 @@
+User story board
+https://www.youtube.com/watch?v=XPqOqWw0d0c
+https://www.youtube.com/watch?v=apOvF9NVguA
+
+
+AS A User
+I WANT to have a Login functionality
+SO I can successfully use Dashboard software
+
+Scope
+- Build a login Page
+- Student Validation
+- It should work in all the browsers
+- It should also work in Mobile
+
+Pre-condition
+User should have registered in User management system.
+
+
+Acceptance Criteria
+Scenario 1 : User can Login successfully.
+Given I am on Login Page
+And I give valid Username and Password
+And I click on Sign In
+Then I will Login successfully
+
+Scenario 2 : Student cannot Login successfully.
+Given I am on Login Page
+And I give In-valid Username and Password
+And I click on sign In
+Then I will get a error message as "Login Failed, Invalid Username and Password"
+
+Scenario 3 : Student can reset password
+Given I am on Login Page
+And I click on Forgot Password
+And I will receive a Reset Password Link to email ID
+And I follow the link and provide new password
+And I click on Reset Button
+And I follow the link and provide new password
+And I click on Reset Button
+And New password will be set
+And I provide Username and New Password and click on sign In
+Then I should login successfully
+
+
+------------
+
+Epic 과 	
+
+** version 외에 다른 사람들이 쓰는 label 에 대해서 => 어떻게 하면 색상을 변화시키지?
+** labeling 을 어떻게 할건지? 
+
+
+** Designer
+이슈 타입을 어떻게 수정하지?
+어떻게 smart commit 과 workflow를 만들지?
+어떻게 하면 smart commit 을 빗겨 갈 수가 있을까?
+
+-------------
+
+How could I create the epic link on Jira?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Design Issue type 만들어 주기 / 기획단도 이야기 할 수 있도록
+
+- Github smart commit 연동하기 (기본)
+- work flow 만들기
+
+
+Scrum
+
+User story
+sub task
+
+version label
+Epic (단위를 정하기)
+
+------
+
+Modify the style from designer.
+Make documentation and tiny up the code before stopping the project.
+Make Project on Jira and share about it with front-end part and designe part.
+
+
+이번주에 한 일도 좀 기록해 둬야 겠다.
+
+------
+
+sample of the user story point
+https://blog.deviniti.com/atlassian/how-to-write-user-stories-in-jira/
+
+
+=======
+
+https://www.youtube.com/watch?v=XPqOqWw0d0c
+
+https://confluence.atlassian.com/advancedroadmapsserver/understanding-sprints-974360324.html

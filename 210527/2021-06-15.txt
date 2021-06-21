@@ -1,0 +1,18 @@
+* Today I did
+- documentation 끝낼순 없지만.
+- 기획관련해서 이야기 나누었음.
+- Documentation : https://www.figma.com/file/e4di2OSqKAQlV3jK7Y7ePr/Unity?node-id=762%3A0
+- Hugo : https://gohugo.io/documentation
+- Sass : https://sass-lang.com/
+- http://localhost:1313/
+- https://docs.beta.cochl.ai/
+- https://github.com/cochlearai/documentation
+
+* Today I learned
+- Figma plugin (px => rem)
+  https://www.figma.com/community/plugin/837070613195594890/Hand%E2%80%BA%E2%80%BAover
+
+* Reddit
+- https://github.com/loonywizard/sorting-algos-visualizer
+
+

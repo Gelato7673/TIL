@@ -1,0 +1,34 @@
+Stand by Music Swapper
+
+The project state
+
+This article is written to record the changes through the meeting, and the issue needed to have a conversation before reworking.
+
+firstly, This project's front-end is designed basis on the totally realtime system. like following example.
+
+1. When user upload the video, It's analyzed and create new project directly. 
+2. When user click the exporting button, Sound and music is merged directly.
+
+but, you know, this is not suitable the our real system (if you have curious, please read this article.. https://github.com/cochlearai/music-swapper/blob/doc/standby_state.md#server)
+
+so, we changed some plan to add progress bar when user wating the next step. but, It's not designed completely. after checking the data, we need to design and make the feature. 
+
+Second, we shrinked the function that is not essential but we had to waste a lot of time, or has the real-time issue.
+
+1. If user upload the music, It's changed hls url and play the music.
+2. Change the dimension
+3. If user select the section they want change in recommended music, It's merged immediatly to original sound and It's played. 
+
+Third, we need to change or make more feature on next working
+1. Login page - after being constructed user management system, the page related auth need to be chagned.
+2. Onboarding page - after finishing the other steps, we need to make the video for onboarding page.
+
+Third, we arranged many issued progressing the project, but It remained many issues that I should deal with like following list
+- Hls problem
+- Suggestion : Separate the process
+- Siletn section
+
+Finally, when someone develop this project, please keep in mind that this has many variable situation, so the developer need to have a conversatation enoughly with the other part, and develop this project as step by step.
+
+
+

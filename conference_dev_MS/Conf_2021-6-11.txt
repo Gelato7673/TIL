@@ -1,0 +1,61 @@
+
+
+This week I finish the axis page and upload our officia-web.
+and I searched and set the Jira project and had conversation about it with designer and I'll have meeting with related one.
+and, now I'm working about standby of the project. Music swapper.
+so, I'm writting the documentation of music swapper we could remember the situation when we stopped, and manage this project easier to the next turn.
+and next week, I'll revise the documentation. Maybe, It's related with hugo.
+
+
+-----
+It just the thinking about music swapper (personality thinking and plan)
+and, we need to arrange Jira board as the user story based. and we need to record the bug we'll fix.
+and, I'll arrange the some code about music swapper.
+
+-----
+1. web-client : Dashboard [pipe nertwork 가져오는 것]
+
+2. official-web - optimized [now 1000~2000] 
+:  cdn, font cdn issue, style issues ( refactoring ) 
+:  multi- vision 
+:  Tech up
+* [performance issue]
+* plan front-end
+
+
+* cdn issue가 해결되서 올라간걸로 보였는데, 여전히 그런지? / Ping test / 
+* Issue 올릴것. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

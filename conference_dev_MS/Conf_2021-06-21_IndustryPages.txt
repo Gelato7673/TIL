@@ -1,0 +1,51 @@
+Industry page Idea
+
+1번째
+
+
+2번째
+industry 대신 solution (technology)
+- technology, industry => solution
+
+3번째
+- technology
+- solution & Product.
+
+* cochle experience. (babel)
+
+------
+product, solution : 같이 있을때, (solution) 이 애매한 부분이 있다. 
+v3 // industry 페이지를 추가하자!
+컨텐츠의 완성도, 우리의 tech를 충분히 보여 주자. 
+Industry 페이지가 잘 되어있으면은, 다른 회사들이 우리를 볼때 명확히 보여줄 수 있을 것 같다. 
+
+------
+** technology를 채우기가 어렵다.
+Field 스터디를 쓰기가 어렵다 (MdA가 맺어져 있기 때문에)
+- public하게 놔두기는..?
+
+------
+Cochl. Lab 이 재미있다. (웹 데모를 좀더 쉽게 써 볼 수 있는)
+컨텐츠를 누가 만들 것이냐 ㅎㅎ
+뉴스레터를 누가 만들 것이냐?? (쓸 사람이 없다는 것)
+Developer relation이 들어 온다는것 (technical writing)
+
+------
+
+들어가는 컨텐츠 자체가 중요하다는 점. => 나중에 구조를 맞추는 것이 좋겠다. 라는 점. 
+version1 / version2
+** Industry에 관한 강력한 메세지
+about us 로 tech로 빠지는 것에 대해서? home을 엄청 technology 스럽게 빠지는 것도 나쁘지는 않다.
+
+------
+가안에 대해서
+
+Home / Technology / Industry / Cochl.sense / About Us
+- Home 에서 Industry 내용도 들어간다. 
+- Home: abstract한걸 가지고 올 것 인지, 아니면, visualization 한 걸로 갈 건지.
+
+custom customoial [사용자 후기] : 비밀유지 부분. (나머지 것들을)
+
+Industry : 음악 분석
+product에 뮤직을 추가하는 방안으로 , 생기는대로 추가를 해 나가는 부분,
+------

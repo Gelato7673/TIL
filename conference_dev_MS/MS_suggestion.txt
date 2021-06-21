@@ -1,0 +1,55 @@
+Suggestion : Separate the process
+
+The process of music swapper from uploading the video to separate page is like following list.
+
+1. user pload the video and create the project
+2. user click the project
+2. the page to selec the sound between voice only or accompany only.
+3. the separate page to adjust the section and we offer the selected sound as toggle button on separate page
+
+
+in this process, Especially number2 and 3, we had many option as technically.
+
+option 1) we use the 3 sound media (voice only, accompany only, original sound)
+In this case, back-end systme make the new feature about original sound, and may be analyzed time is longer than before (I don't know exactly, just my guess)
+and front-end system has the synce issue. if only one media source (video or sound) use the hls, it's worth consideration to synce on front-end side. 
+but, when we use the two more media source as hls, It's not make sense. because, It means user experience double buffer situation.
+for example, if video has the buffer, the sould also stop at that time. 
+and if the sound has the buffer, the video also stop togther.
+
+=> so, I don't suggest first option for this reason.
+
+
+option 2) we use the two video source.
+In this case, user has to wait until video merged with the selected sound when user go onto the separte page from select sound page. 
+but, front-end synce problem is disappeared because we use one media source.
+
+ => I don't suggest this option too.
+
+
+option 3) we use the other method except hls. 
+(refer to https://cochl.atlassian.net/l/c/iXXdSr3W)
+
+=> we didn't find suitable method yet except hls.
+
+
+option 4) we change the process to separte the function with selecting sound and original adjusting section. like following. 
+
+1. user pload the video and create the project
+2. user click the project, we can give the two option as pop up.
+
+first option) move to select sound page.
+if user select this option, the page is moved on the select sounds page, and user select the sound, we'll merge the video as the selected sound.
+It's done.
+
+second option) move to separate page.
+and we need to remove the function to toggle selecting background-removed sound. 
+
+I mean, we need to separte two function. because, if we make this two function as one process, user has to be waited until merging video and beared double buffering if they just want to use one function between two of them. 
+
+=> so, I suggest this option.
+
+
+
+
+

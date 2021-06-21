@@ -1,0 +1,29 @@
+Todo list
+- 내일까진 docs 해주자.
+- 더 중요한건, react 공부하고, raddit도 공부하자. 
+- 기획 어떻게 되어가고 있는지 확인 할것. 같이 의논 할 것. (같이 보고 이야기 나누기)
+- Axis 어디까지 되었는지, 확인 할것.
+- 수정사항 어디까지 되었는지 확인 할것.
+- 속도문제도 확인 할것.
+
+
+Today I learned
+
+switch
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+
+array, length
+https://www.geeksforgeeks.org/check-if-an-array-is-empty-or-not-in-javascript/
+
+split
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+
+windows path
+https://www.thewordcracker.com/jquery-examples/javascript-get-current-url-path/
+
+async & await
+https://joshua1988.github.io/web-development/javascript/js-async-await/
+
+** 따로 공부하자. 드림코딩보고!! : 콜백함수 이해하기
+
+** 사실은 그냥 id가 두개 겹쳐서 안나온 거였다. 뻘짓.

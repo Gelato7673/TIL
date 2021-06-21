@@ -1,0 +1,13 @@
+Today I did
+- Jira setting 완료 하고 쉐어링 했음.
+- smartcommit test 했으나, 잘 안되었다. 따로 셋팅 해야 하는듯. 
+- 뮤직스와퍼에서 대한 글쓰는걸 시작했다. 
+- 뮤직스와퍼에 대한 대략적인 아웃라인을 완성했다.
+
+
+Today I learned
+원격 브랜치 가져오기
+https://lucidmaj7.tistory.com/161
+
+원격 브랜치로 체크아웃
+git checkout -t origin/test

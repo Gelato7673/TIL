@@ -1,0 +1,17 @@
+Today I did
+- 뮤직스와퍼 글 올리고
+- 뮤직스와퍼 오류 복구하고
+- 기획에 관해서 필요한 부분 쉐어링 하고
+- documentation 실행해보고
+
+
+Today I learned
+* git을 잘 쓰는건 역시 중요해.
+- 원격 브랜치 가져오기
+  https://lucidmaj7.tistory.com/161
+
+- 원격 브랜치로 체크아웃
+  git checkout -t origin/test
+
+
+

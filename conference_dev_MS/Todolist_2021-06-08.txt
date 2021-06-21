@@ -11,7 +11,7 @@
 - 어디까지 되었는지 확인 한다는 것.(목)
 - Documentation 만들어 주기 (금)
 
-- 뮤직 스와퍼를 정리한다는 것.(목, 금)
+- 뮤직 스와퍼를 정리한다는 것.(수)
   - 앞으로 어떻게 가져갈지 생각해 보기, sharing을 어떻게 할지
   - confluence를 가져가면 어떨까! (wiki, issue!)
   - Jira는 가져가지 않는 것이 좋을 것 같다.
@@ -22,3 +22,5 @@
 - 심리학 책 보기
 - 코드를 읽고 구현하는 것도 빨리 질 수 있도록 노력하자
 - backend도 sevlet이나 여러가지를 써서 구성해 보고, 시도해 보고 싶다. 
+
+- numbers has problem. file has problem or.. I need to solve this one.
